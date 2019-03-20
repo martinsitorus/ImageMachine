@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImageMachine" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="ImageMachine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="r8o-n0-LOr" kind="show" id="Yzy-rN-Q00"/>
+                                    <segue destination="r8o-n0-LOr" kind="show" identifier="showMachinData" id="Yzy-rN-Q00"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSg-nY-ER4">
@@ -39,7 +39,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fV5-dS-f4f" kind="show" id="q2g-Ga-HPc"/>
+                                    <action selector="scanAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a5S-xV-yhQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -57,39 +57,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="K3i-Xt-TdX"/>
+                    <connections>
+                        <segue destination="TDL-zE-Xfl" kind="show" identifier="showDetail" id="ch6-bt-hLk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="980" y="793"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="6IN-Id-sXE">
-            <objects>
-                <viewController id="fV5-dS-f4f" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5XW-Z2-TFB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGa-YR-a3i">
-                                <rect key="frame" x="0.0" y="301" width="320" height="30"/>
-                                <state key="normal" title="Machine Detail"/>
-                                <connections>
-                                    <segue destination="TDL-zE-Xfl" kind="show" id="WIt-03-awA"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="CGa-YR-a3i" firstAttribute="centerX" secondItem="bNR-VK-RoS" secondAttribute="centerX" id="4Lq-Jr-ElZ"/>
-                            <constraint firstItem="CGa-YR-a3i" firstAttribute="centerY" secondItem="bNR-VK-RoS" secondAttribute="centerY" id="WKD-Bn-YTH"/>
-                            <constraint firstItem="CGa-YR-a3i" firstAttribute="width" secondItem="5XW-Z2-TFB" secondAttribute="width" id="xom-MS-pny"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="bNR-VK-RoS"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RVs-KK-gyK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2100" y="1317"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zN1-AG-dxi">
@@ -159,7 +133,7 @@
         <!--Machine Data-->
         <scene sceneID="S4M-fI-zdZ">
             <objects>
-                <viewController id="r8o-n0-LOr" sceneMemberID="viewController">
+                <viewController id="r8o-n0-LOr" customClass="MachineDataViewController" customModule="ImageMachine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2JN-zs-P3s">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -167,6 +141,10 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Um2-qU-7ht">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="r8o-n0-LOr" id="tOz-hb-Xzj"/>
+                                    <outlet property="delegate" destination="r8o-n0-LOr" id="w15-ui-K93"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
