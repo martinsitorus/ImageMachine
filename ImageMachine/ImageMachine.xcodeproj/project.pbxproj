@@ -10,6 +10,7 @@
 		135F577964DE2878AE679613 /* Pods_ImageMachineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CB2C9D18F4E88243E7F5C7 /* Pods_ImageMachineTests.framework */; };
 		5B4446572241F56C0086BBDF /* MachineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4446562241F56C0086BBDF /* MachineModel.swift */; };
 		5B4446592241FC270086BBDF /* MachineDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4446582241FC270086BBDF /* MachineDataViewController.swift */; };
+		5B44465B224391060086BBDF /* MachineDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B44465A224391060086BBDF /* MachineDetailViewController.swift */; };
 		5B60FA26223FF1050009093D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60FA25223FF1050009093D /* HomeViewController.swift */; };
 		5BDA36B6222FEBFA00657B06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA36B5222FEBFA00657B06 /* AppDelegate.swift */; };
 		5BDA36B8222FEBFA00657B06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA36B7222FEBFA00657B06 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		2DAC3A3843C17125F93D1339 /* Pods_ImageMachineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageMachineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4446562241F56C0086BBDF /* MachineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineModel.swift; sourceTree = "<group>"; };
 		5B4446582241FC270086BBDF /* MachineDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineDataViewController.swift; sourceTree = "<group>"; };
+		5B44465A224391060086BBDF /* MachineDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineDetailViewController.swift; sourceTree = "<group>"; };
 		5B60FA25223FF1050009093D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5BDA36B2222FEBFA00657B06 /* ImageMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDA36B5222FEBFA00657B06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			children = (
 				5B60FA25223FF1050009093D /* HomeViewController.swift */,
 				5B4446582241FC270086BBDF /* MachineDataViewController.swift */,
+				5B44465A224391060086BBDF /* MachineDetailViewController.swift */,
 			);
 			name = Controller;
 			path = ImageMachine/Controller;
@@ -441,6 +444,7 @@
 			files = (
 				5B4446592241FC270086BBDF /* MachineDataViewController.swift in Sources */,
 				5BDA36BE222FEBFB00657B06 /* ImageMachine.xcdatamodeld in Sources */,
+				5B44465B224391060086BBDF /* MachineDetailViewController.swift in Sources */,
 				5BDA36B8222FEBFA00657B06 /* ViewController.swift in Sources */,
 				5BDA36B6222FEBFA00657B06 /* AppDelegate.swift in Sources */,
 				5B60FA26223FF1050009093D /* HomeViewController.swift in Sources */,

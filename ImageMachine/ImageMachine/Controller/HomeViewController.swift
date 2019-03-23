@@ -16,28 +16,17 @@ class HomeViewController: ViewController {
         let builder = QRCodeReaderViewControllerBuilder {
             $0.reader = QRCodeReader(metadataObjectTypes: [.qr], captureDevicePosition: .back)
             
-            // Configure the view controller (optional)
-            $0.showTorchButton        = false
-            $0.showSwitchCameraButton = false
-            $0.showCancelButton       = false
             $0.showOverlayView        = true
-            $0.rectOfInterest         = CGRect(x: 0.2, y: 0.2, width: 0.6, height: 0.6)
+            $0.rectOfInterest         = CGRect(x: 0.15, y: 0.3, width: 0.7, height: 0.4)
         }
         
         return QRCodeReaderViewController(builder: builder)
     }()
     
+    var result: String = ""
+    
     @IBAction func scanAction(_ sender: AnyObject) {
-        // Retrieve the QRCode content
-        // By using the delegate pattern
         readerVC.delegate = self
-        
-        // Or by using the closure pattern
-        readerVC.completionBlock = { (result: QRCodeReaderResult?) in
-            print(result)
-        }
-        
-        // Presents the readerVC as modal form sheet
         readerVC.modalPresentationStyle = .formSheet
         
         present(readerVC, animated: true, completion: nil)
@@ -50,7 +39,6 @@ class HomeViewController: ViewController {
     }
     
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -58,14 +46,13 @@ class HomeViewController: ViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
 
 }
 
 extension HomeViewController: QRCodeReaderViewControllerDelegate {
     func reader(_ reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {
         reader.stopScanning()
-        print(result)
+        self.result = result.value
         dismiss(animated: true, completion: nil)
         performSegue(withIdentifier: "showDetail", sender: self)
     }

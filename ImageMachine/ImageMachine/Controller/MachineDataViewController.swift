@@ -11,23 +11,36 @@ import UIKit
 class MachineDataViewController: ViewController {
 
     var machineArray:[MachineModel] = []
+    var status:String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let addButton = UIBarButtonItem(title: "Add",
+                                        style: UIBarButtonItem.Style.plain ,
+                                        target: self, action: #selector(onAddClicked))
+        
+        self.navigationItem.rightBarButtonItem = addButton
+        
         // Do any additional setup after loading the view.
     }
     
-
-    /*
+    @objc func onAddClicked() {
+        status = "add"
+        performSegue(withIdentifier: "showMachineDetail", sender: self)
+    }
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        switch segue.identifier {
+        case "showMachineDetail":
+            let targetVC = segue.destination as! MachineDetailViewController
+            targetVC.status = status
+        default: break
+        }
     }
-    */
 
 }
 
