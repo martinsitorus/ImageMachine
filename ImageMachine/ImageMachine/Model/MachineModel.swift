@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Photos
 
 class MachineModel: NSObject {
     var id:String
@@ -14,10 +15,10 @@ class MachineModel: NSObject {
     var type:String
     var qrCodeNumber: String
     var maintenanceDate: NSDate
-    var imageArray:[UIImage]
+    var imageArray:[PHAsset]
     
     
-    init(machineId:String, machineName:String, machineType:String, qrCode: String, lastmaintenanceDate: NSDate, images:[UIImage]) {
+    init(machineId:String, machineName:String, machineType:String, qrCode: String, lastmaintenanceDate: NSDate, images:[PHAsset]) {
         self.id = machineId
         self.name = machineName
         self.type = machineType
