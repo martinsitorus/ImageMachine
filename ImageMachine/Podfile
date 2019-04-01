@@ -9,7 +9,7 @@ target 'ImageMachine' do
     pod 'QRCodeReader.swift'
     pod 'TLPhotoPicker'
     pod 'IHKeyboardAvoiding'
-    pod 'Prephirences'
+    pod 'StorageManager'
     
 
   target 'ImageMachineTests' do
