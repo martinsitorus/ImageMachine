@@ -8,6 +8,8 @@ target 'ImageMachine' do
   # Pods for ImageMachine
     pod 'QRCodeReader.swift'
     pod 'TLPhotoPicker'
+    pod 'IHKeyboardAvoiding'
+    pod 'Prephirences'
     
 
   target 'ImageMachineTests' do

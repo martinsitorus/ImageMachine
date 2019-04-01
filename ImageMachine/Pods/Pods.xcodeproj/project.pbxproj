@@ -7,49 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0177A8344D96F415E570171ADC7DC886 /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FFCA0D13B1DAFBA963BF6A7AD785C5 /* TLPhotopickerDataSourcesProtocol.swift */; };
-		092D5121ED847C461DD9B3F7AD3BD77D /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ACDCDE90D762BA380A8AC987FAFE6E /* ReaderOverlayView.swift */; };
-		133F3554E77338C44C6818D1B28544E8 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B80F8ABC11DFFD68B7BE58419E2FFC /* ToggleTorchButton.swift */; };
-		141601862E42D9ABAA05E1480A70E3EF /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0F41F9EB40345B3E86551BEBCA5FC /* QRCodeReader.swift-dummy.m */; };
-		14D6DB097EA357FDC73D9EBDFE5EDF6D /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B59535E6376B1702A0B5ED692F48208 /* TLPhotoPicker.bundle */; };
-		168A829D1FF339D0166CC142E4A9B26D /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37C1417089BFD8B2A6CD11AE015A2F /* QRCodeReaderView.swift */; };
-		1C7188C7536EAA4CFA58DAE957BB3038 /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE1C4799B9A4ABAADC06B67EA716FB9 /* TLPhotoLibrary.swift */; };
-		222D62B1F95F3018C193DE71C80F9837 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA63DE9A388033AF363BE66AE06C12A3 /* TLPhotosPickerViewController.swift */; };
+		02A93315B734C576BD04956C0EB5B153 /* Prephirences-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013EE696B16DAEA605DA824FE6E9C304 /* Prephirences-dummy.m */; };
+		0579E8C4C3EBA2C50E6195BC70AD03ED /* NSUbiquitousKeyValueStore+Prephirences.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EB422F702A036C6E0720F5FB62661A /* NSUbiquitousKeyValueStore+Prephirences.swift */; };
+		06BA038704CBDA80F5E68C03F6742C86 /* PreferenceTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AC7337BE84F22CA1771B850F9EA467 /* PreferenceTransformation.swift */; };
+		0D8BB3FEF311B7FFAA63C94DF7AEB2DA /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A727EDA50F6B1F8496DE10BA37A56E8 /* QRCodeReader.swift-dummy.m */; };
+		11531ED22AEAF2E99BDF39CCCA126D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
+		14BB61D84B9774DF43693E6446DB1E52 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7FA33126134CA343F0EBF28ED5843E /* KeyboardDismissingView.swift */; };
+		1956D92D841BCB00B20103EA690A3058 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E691BDF0F496732501132A7947E82 /* ReaderOverlayView.swift */; };
+		1DCA9284C40FB6F75AD7637EC1C51DA0 /* TLPhotoCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 90A98222769D0508ACF6855FB28BEBEB /* TLPhotoCollectionViewCell.xib */; };
+		1EADDE232BC149213C9B6C1415AB021A /* PreferenceOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DEF9D41960FF37B637AB7A2A18C390 /* PreferenceOperators.swift */; };
+		20BC9A6C30EB1B7B10605B1346652C79 /* IHKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5442BCA64F24DAF329D470B5C3670A4 /* IHKeyboardAvoiding-dummy.m */; };
+		237C06A63F93EB5EE6036BB14E0A6012 /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F347ACC2B04F7D80A49F550FDABBEB2A /* TLPhotoPickerController.bundle */; };
 		25EC983B5D31C9DE1886C00C89FA013E /* Pods-ImageMachineUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D76BAFE30EC95D952E37ACFC9958D58D /* Pods-ImageMachineUITests-dummy.m */; };
-		271A64AEDF6AA5D71B4311EBF3D40674 /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8B161D353C1466DAFD1D5983CAD5FD /* TLBundle.swift */; };
-		3161DCEB7796883969DB5A64540EE619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		43EDB2F0A6FF0E3580ED0A80C0625E82 /* TLPhotosPickerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 6948045626D64BC5D16FF6E9D04CEB34 /* TLPhotosPickerViewController.xib */; };
-		440D6BAC004C53E47F263F4D33CCB8C9 /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A64CE28A9E5DAA8C904F7385572EB8 /* TLPhotoPicker-dummy.m */; };
-		45D760A3A60B8D3799B6752F60CE14FC /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C6039E02EE27E03759B84DED1ADC4EA /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C55C044AEF7A1FA1364162509A74BFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		4ED3151DF9A6E2F147D3428EBB8D1E4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		5480A86BE9EE6F50C0B4D0C08F5B9996 /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2778878B76E8D2B25CAFB956B93D9797 /* TLPhotoPickerController.bundle */; };
-		5B9E27C65C376D4BB3421392CBDDEEAE /* Pods-ImageMachine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C96FDA2AF3448BC8E6C466E4E5A2C662 /* Pods-ImageMachine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A56B10837A2272CAA20C39B831E56EB /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6C8DEFC0CC4DBE700DB0343BCD5D34 /* TLPhotoCollectionViewCell.xib */; };
-		71EED00291032E6C14F46D209764495A /* Pods-ImageMachine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A136E5D3DAAEB0FC8D873CCF547871AD /* Pods-ImageMachine-dummy.m */; };
-		7B1B7C2224C81858A432238CD7220692 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DDC0AEB36CF0DEA2BC449108D6568 /* SwitchCameraButton.swift */; };
-		8000E3F860F6705A1AE02CCEB2FA7B11 /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CB867F2B18064EC0674ECBD7CA8413 /* TLAssetsCollection.swift */; };
-		8206289898EC592A4C851E1B12C6B7FF /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C13C2FDE33BBA1D8E85D9E12B7DC9 /* QRCodeReaderResult.swift */; };
-		845FD5775BBB98DF9DC76F37D227C138 /* TLPhotoCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0A6C8DEFC0CC4DBE700DB0343BCD5D34 /* TLPhotoCollectionViewCell.xib */; };
-		8DDCFE11CD22A6BF103862492D353BBF /* TLCollectionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 327996E101DB5FD4C519DA29652CFCCD /* TLCollectionTableViewCell.xib */; };
-		92EE019E7AA6D93EC0967F23748B5E68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		A2224DCF1E0324CA66A432CEEDA84727 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3101697D06BD051E75BD755E47A38 /* QRCodeReaderViewController.swift */; };
-		A63FDBB30692B6434DAE9EB787BD5E68 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4867EBB2AFAB9F289C505E88919E2239 /* TLCollectionTableViewCell.swift */; };
+		2643DB3BED81EAA7C6159D3AE1378FE6 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE3F7079C5989B34E1AC4B05DFB29BD /* ToggleTorchButton.swift */; };
+		2AE49E5B0BAE4FE5DA97C233DF5A8CCC /* Pods-ImageMachine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C96FDA2AF3448BC8E6C466E4E5A2C662 /* Pods-ImageMachine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C7F809BF43811F980989D9FE6677362 /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6724169855B4846A2E3698C6C9FD2B /* TLPhotosPickerViewController.xib */; };
+		2D9CACDF06AB22BB00F7339546C76253 /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BC1AE34C9CF53A26F2F259CF3EA20 /* TLPhotoLibrary.swift */; };
+		3161DCEB7796883969DB5A64540EE619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
+		32EB1BD5BB395FD7FCDF4F4F63C769BD /* PrephirenceType+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F22B20E4D12C61E64C2E8BC8D54F8 /* PrephirenceType+Codable.swift */; };
+		32EFBC3BFE736B41E19F4AFB7D7F99E6 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1386C4BB57CFE450713BAA46A86B9B44 /* QRCodeReaderViewController.swift */; };
+		341331774C6F0A339840DAC836BD9697 /* PatternPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052BCB80EFFF997B3D33A4EC718166D /* PatternPreferences.swift */; };
+		38A29333991D288A8B3523F3003A54BB /* TLPhotosPickerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3B6724169855B4846A2E3698C6C9FD2B /* TLPhotosPickerViewController.xib */; };
+		40536DED38F6EAC138EDBFB544FABABD /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5F72DE7CAE3667B9996E266357CD5984 /* TLPhotoPicker.bundle */; };
+		40723D29BB372A58E2B48CEF06A7DC26 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3FDDF944CA823AE7EBDF2F70E08038 /* TLPhotosPickerViewController.swift */; };
+		42633A45B60F000C378B78E2BBBE67DB /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F8E113FEEC30013CB6151D11973F37 /* TLAlbumPopView.swift */; };
+		4827A530CC8EFE64A8EC0D834EBA7A0E /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A443A75F842BCCBBB9FA49D56D945A /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48B7A695251A25C8FD38E3823DE407B0 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D9B50C01B2FC8340289BBC769F486E /* QRCodeReaderView.swift */; };
+		4ED3151DF9A6E2F147D3428EBB8D1E4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
+		527BDA73CE6D8BE9819DF0CDD24F9CC7 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D822685F0411B9FEDC356F78BBD494 /* KeyboardAvoiding.swift */; };
+		56B6D9E58C3E6074CA5F1A4424F70F22 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DFE61686481BD18EA9B0E5E4632AE /* QRCodeReaderResult.swift */; };
+		59704B8D656D7EEADD29EDD45BFDDBC5 /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90A98222769D0508ACF6855FB28BEBEB /* TLPhotoCollectionViewCell.xib */; };
+		5A677E17DEECB953FF81291A2E54DC94 /* NSCoder+Prephirences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8925222CA1AE0BA436C022AE978CC6C /* NSCoder+Prephirences.swift */; };
+		5C6C009BBD25CC176383A00E71AF8D99 /* DictionaryPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42AD1EF2855A7E737A62E65965618 /* DictionaryPreferences.swift */; };
+		5E2C66BA64EA1FE49A277804FDA8624A /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B6DE3FEA81B8092AF66D34A92C7685 /* TLPhotoPicker-dummy.m */; };
+		6525BF9F86FDD7EA9D3DE71B973E5A14 /* KeychainPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B636FC54DAB50F3D85F0A7E7016774E /* KeychainPreferences.swift */; };
+		6EB1A8F3E4DC6D54770FB8F2ED746CAD /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CEB0261935060D9206F0EFDC0AA0A5 /* TLPhotopickerDataSourcesProtocol.swift */; };
+		73A7D3D40F76C243EACE09EF8EBE36A1 /* NSCachePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8D9BCF673897401FF393072E28EC46 /* NSCachePreferences.swift */; };
+		757DC2E4EB7BB53C55009E25D059501B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
+		75F0CF2532B5EC7DAF2DE91CC5E85459 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B5DF277B8487EB8F99517FC98BA82D /* TLCollectionTableViewCell.xib */; };
+		84BBB6A9AA33ABE021073FB995DBF92E /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD96FCA00531A95F6DC0E4FC243E3B4 /* TLPhotoCollectionViewCell.swift */; };
+		87E3C95E6CD87B410430A34FF60C8E61 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD4C7BA9E0401074F65823280ACB5A /* TLCollectionTableViewCell.swift */; };
+		8E1C7AF5BE71B2BFA122A4F63685DD8D /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8209CC10635882A5940D9E64DC09F5 /* TLAssetsCollection.swift */; };
+		96C727B8FEE153173BEF78783F5DC307 /* NSHTTPCookieStorage+Prephirences.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7334032473D204C58BDB0E6413E1125 /* NSHTTPCookieStorage+Prephirences.swift */; };
+		97B8770691A088779A0AABA4B624C270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
+		98487ADEBD6198B383215F0DC720EDB0 /* TLCollectionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 90B5DF277B8487EB8F99517FC98BA82D /* TLCollectionTableViewCell.xib */; };
+		9BFA1A73AA55CAED87ED83024290D5B8 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D6287870AFD097DB93653F9D3602D3 /* TLAssetCollection+Extension.swift */; };
+		9FD6EFC2F6F73AB23F8A883F23DBA539 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB55EBB9EA682E491D0C06A2F48525D1 /* UserDefaultsKeys.swift */; };
+		A81CE50914BF30F36D55DCCAFC2337CC /* IHKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6982077123166C3EAA512B0541E7A5FC /* IHKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9065F902DF6642D01C953F82AC53C82 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193D539D4370255177CE04B1D07437C5 /* SwitchCameraButton.swift */; };
+		AA6477B47D39FF5F9E8C1ED37443D749 /* PreferencesOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7A9731529A7C0EB1D9B80E605F4EDA /* PreferencesOperators.swift */; };
 		AC68303A9A165B9B52D0725EE0503E59 /* Pods-ImageMachineTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B13DE2A807D6C4B6FA9DB95B6E5D17 /* Pods-ImageMachineTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD252DAE15321A041A028FC11A3E72F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8B077304B6FAD57228480E9C187D59 /* AVFoundation.framework */; };
-		AE03C4229D080F421914A33FF821FAF2 /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6322E1E1189951CAC354E28AAF20ED18 /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B67EB81E6E95536E1919A43F418D65D4 /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4260C39362E14CF9DCD95116D590F4D4 /* TLAlbumPopView.swift */; };
-		B9F43B1A28E5DD71A038EB9C6278CEB1 /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7466D878EA94D577D62F4ED005CADE /* TLPhotoCollectionViewCell.swift */; };
+		AD81B0F5EEE6E5B9852A4CA72F6F7EA9 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AA15F341AE9AD67C40B7B6BE13947D /* QRCodeReaderViewControllerDelegate.swift */; };
+		AD934DE0D26A0BB31F60944548D056F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
+		B1E70EB7F52A6CA3BE763DC0C98E78BB /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D64B8C50105AA95E9FC15A5EA8D8E1 /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B24E72D3C7F3D4875F402C9F653B07A1 /* Pods-ImageMachine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A136E5D3DAAEB0FC8D873CCF547871AD /* Pods-ImageMachine-dummy.m */; };
+		BAD10DF55F685B07A6F1AD2BD0CD0465 /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE69F3735C75612A5E5FBEE3D02D8B /* QRCodeReaderViewContainer.swift */; };
 		BB3F0CA7EBF206076564F8FC77B55EE8 /* Pods-ImageMachineTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C8552B0A319F717E50F4A404B3EDA5 /* Pods-ImageMachineTests-dummy.m */; };
-		BDFB492CCBAA11478346ED3248D3B694 /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB52185B09B80C7186E241DBECB88C /* QRCodeReaderViewContainer.swift */; };
-		C6B71E103753F065CFFDF403CAD5F03D /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854545D98AD12B4E1899D11D7724750D /* QRCodeReaderViewControllerDelegate.swift */; };
-		CDA26FF99C96C60ABE5ED8B0A74FA078 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF53F7E473C745063780FB8FB0651F /* TLAssetCollection+Extension.swift */; };
-		D5690AD261526FBCA75828FD8F3DEFC5 /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6948045626D64BC5D16FF6E9D04CEB34 /* TLPhotosPickerViewController.xib */; };
-		DB81FB375851372064EB1F25E3146F13 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 327996E101DB5FD4C519DA29652CFCCD /* TLCollectionTableViewCell.xib */; };
-		E7AA5154F24EDE1E6B3447A17368D5EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */; };
-		E917084BC18E561B9D3DC34DE0A8D5BF /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5338B4FEAE47B6B49B0310E2FECA947 /* QRCodeReaderViewControllerBuilder.swift */; };
+		BF6165678FFA58F2A6564F550367E1B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
+		C09C5D62F54FD89993F8950BC236436E /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03FC8BBCB670D2D9B2A6F4378A96219 /* QRCodeReaderViewControllerBuilder.swift */; };
+		C489C9683462F1EDEF5B10EF1BA8E7B4 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BAFF138028624F2FEF057875A4F779 /* QRCodeReader.swift */; };
+		C7B333A27022D5DDBC96100144FD47A8 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED484FD4E60999552ADBD852CD4F7E /* Bundle.swift */; };
+		CCAB21C6A2C2E4569069C2D44C00810E /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5ED7A5509D056274E161322A86186 /* Preference.swift */; };
+		DBA07108305BAC15C5E9DE28FD9C3ABF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C011026CE3924351BF5E4F9B40AC59 /* AVFoundation.framework */; };
+		E1693E933B0C4FA31F3017C6C4FBCE57 /* Prephirences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A89DB3175184A374814FC692508F3 /* Prephirences.swift */; };
+		E29617263C03540877D2F30373160CBC /* PropertyListKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D16110B3B634D9936EF617050B926B /* PropertyListKeys.swift */; };
+		E3A1D5BEDBB88E42BDEAABA0AAB76B16 /* ReflectingPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC66B36466CD96507D569EC1F2FFC58 /* ReflectingPreferences.swift */; };
+		E463E778C433F86C218E042D5A3CDCE7 /* Prephirences-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22940AC00196DB1BDB42228D03D9D531 /* Prephirences-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E594FDAEA8FCE93587C442BA2AAAD7DE /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927BFE01A6A8D2CB39BAFDE24A81754 /* PreferencesController.swift */; };
+		E8577CABC6D88F319858B590463E7738 /* UserDefaults+Prephirences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5A514411A33A52259041C089873D7 /* UserDefaults+Prephirences.swift */; };
+		E93F74933EBCB3B167397AE81DE74966 /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D802E3F7F6395333C8601F25C26ACB7D /* TLBundle.swift */; };
+		ECF56E19D4F0E2735636297AF654D22D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79239136D2FCC866A0EA2B8D1D18C9F0 /* UIKit.framework */; };
+		F08F6FEEE93435A4BFF4A1CF9F66CFC2 /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E47484A8148AD0B11BD541856A232 /* Plist.swift */; };
+		F43212AA920C942A16F54465B82C82BA /* PreferencesType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540050411666D2359DB63B3A1C792B9C /* PreferencesType.swift */; };
 		F622E217320A082365D7BEAD9B08334D /* Pods-ImageMachineUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E013924EF570CF761A17B207275909 /* Pods-ImageMachineUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F843B891FB98D0E5FA77C2B92F992F1E /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4624D9BE180404A465D7DB6BF888239B /* QRCodeReader.swift */; };
+		FDF990EFDE1B0E6191CDDBC2624BB7BF /* Prephirencable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801041ECC7E2ABC5477F6863061E4A72 /* Prephirencable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,126 +88,180 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 59102F9F29C57AA27DD4184335CFED77;
+			remoteGlobalIDString = BFC2A133CA771F10B4F51D714FB811A6;
 			remoteInfo = "Pods-ImageMachine";
 		};
-		23FC81E017F665E8C8BA14ACAE5743C7 /* PBXContainerItemProxy */ = {
+		469F743662E0B6856503AD40803A0728 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 87DF7C4F70B44F50A2E3B362CADA8D0B;
-			remoteInfo = TLPhotoPicker;
-		};
-		BD32F81A73D4DF557D4ADD1D3DD3CA8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C403816E7655356B254490C0AC8D868;
+			remoteGlobalIDString = 1A451EE955868C01D9E48F8333DE9C0A;
 			remoteInfo = QRCodeReader.swift;
 		};
-		C82C3046A97851119601A39836DB4717 /* PBXContainerItemProxy */ = {
+		567279C264A69AB60CD9CB0E45425664 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42254A2CBFF110D5EBECD6DF3CEE6955;
+			remoteGlobalIDString = 7A2876118F66A5C51DE323A15F47B53D;
+			remoteInfo = IHKeyboardAvoiding;
+		};
+		683501F68F63F17A8247BC64C2713973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85F288DB1243CEFA64EC7CC0BE629104;
 			remoteInfo = "TLPhotoPicker-TLPhotoPicker";
+		};
+		90F603A52CAE60C9D522AFA50064B005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BAD7E7EC46A0B6B845E301A98195DD8;
+			remoteInfo = Prephirences;
+		};
+		A7D691069F734790498DA0760B5A6840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8F65E22D66027643F0543B7AC777DF;
+			remoteInfo = TLPhotoPicker;
 		};
 		DA4A5695F39B62F6D4789086F746A9D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 59102F9F29C57AA27DD4184335CFED77;
+			remoteGlobalIDString = BFC2A133CA771F10B4F51D714FB811A6;
 			remoteInfo = "Pods-ImageMachine";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A6C8DEFC0CC4DBE700DB0343BCD5D34 /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
-		0E8B161D353C1466DAFD1D5983CAD5FD /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
-		0EC4F7772C9DDDDFFEF97C1E0B8BC5FF /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		013EE696B16DAEA605DA824FE6E9C304 /* Prephirences-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Prephirences-dummy.m"; sourceTree = "<group>"; };
+		064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0D7A89DB3175184A374814FC692508F3 /* Prephirences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prephirences.swift; path = Sources/Prephirences.swift; sourceTree = "<group>"; };
+		106BC1AE34C9CF53A26F2F259CF3EA20 /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
+		11DEF9D41960FF37B637AB7A2A18C390 /* PreferenceOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreferenceOperators.swift; path = Sources/PreferenceOperators.swift; sourceTree = "<group>"; };
 		121F5898A86492433597B62FCB142D66 /* Pods-ImageMachine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachine-Info.plist"; sourceTree = "<group>"; };
-		12C0F41F9EB40345B3E86551BEBCA5FC /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
+		12FE69F3735C75612A5E5FBEE3D02D8B /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
 		137A1B658CB0927E1A8C16532E747DD8 /* Pods-ImageMachineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachineTests.release.xcconfig"; sourceTree = "<group>"; };
-		17FFCA0D13B1DAFBA963BF6A7AD785C5 /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotopickerDataSourcesProtocol.swift; path = TLPhotoPicker/Classes/TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
-		19A64CE28A9E5DAA8C904F7385572EB8 /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
-		1C6039E02EE27E03759B84DED1ADC4EA /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
-		1CDE57F47C540B05DBF1A7D9E04970CE /* Pods_ImageMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachine.framework; path = "Pods-ImageMachine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F9A879ECFA664ABAA50F69E5F889F22 /* Pods_ImageMachineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachineTests.framework; path = "Pods-ImageMachineTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1386C4BB57CFE450713BAA46A86B9B44 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		13CA08CA66471EBBB012D75CE604EC78 /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		193D539D4370255177CE04B1D07437C5 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		19D822685F0411B9FEDC356F78BBD494 /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = Sources/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		21A443A75F842BCCBBB9FA49D56D945A /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
+		22940AC00196DB1BDB42228D03D9D531 /* Prephirences-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prephirences-umbrella.h"; sourceTree = "<group>"; };
 		26A0439C044C3951C09C756AC82222E6 /* Pods-ImageMachine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageMachine-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2778878B76E8D2B25CAFB956B93D9797 /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
-		2A1B1A9908884AEAC65B573583A35F6C /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B812811118D0CE9DC056B914E5E207 /* Pods_ImageMachineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachineTests.framework; path = "Pods-ImageMachineTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2F89C58E23BE03033253DBE9D57757 /* Pods-ImageMachine-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageMachine-frameworks.sh"; sourceTree = "<group>"; };
-		2E3BE003FEA7912E6F8CD995A7C82CE4 /* QRCodeReader.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRCodeReader.swift-Info.plist"; sourceTree = "<group>"; };
-		2FB3101697D06BD051E75BD755E47A38 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
-		327996E101DB5FD4C519DA29652CFCCD /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		2C36F40665D48E2CD7333C3073057290 /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
+		3052BCB80EFFF997B3D33A4EC718166D /* PatternPreferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PatternPreferences.swift; path = Sources/PatternPreferences.swift; sourceTree = "<group>"; };
 		3479D18186BB34CF0137843170150FBB /* Pods-ImageMachineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachineUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		35ACDCDE90D762BA380A8AC987FAFE6E /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
 		368CF07E6F0E9065DE8F3D583F44B125 /* Pods-ImageMachine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachine-acknowledgements.plist"; sourceTree = "<group>"; };
-		4260C39362E14CF9DCD95116D590F4D4 /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
-		4624D9BE180404A465D7DB6BF888239B /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
-		4867EBB2AFAB9F289C505E88919E2239 /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		38C011026CE3924351BF5E4F9B40AC59 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B636FC54DAB50F3D85F0A7E7016774E /* KeychainPreferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainPreferences.swift; path = Sources/KeychainPreferences.swift; sourceTree = "<group>"; };
+		3B6724169855B4846A2E3698C6C9FD2B /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
+		3CD33883F3C6993580027D4C8FE9B813 /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		3E4BEDD5AA075989BC9F47756D213BD9 /* Prephirences.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Prephirences.framework; path = Prephirences.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D64B8C50105AA95E9FC15A5EA8D8E1 /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
+		445E47484A8148AD0B11BD541856A232 /* Plist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plist.swift; path = Sources/Plist.swift; sourceTree = "<group>"; };
+		482ABF1DBADE5409DE2325A1736A5A3B /* IHKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IHKeyboardAvoiding.framework; path = IHKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC66B36466CD96507D569EC1F2FFC58 /* ReflectingPreferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReflectingPreferences.swift; path = Sources/ReflectingPreferences.swift; sourceTree = "<group>"; };
 		4C4344DC61EA96238701FBDEC8F088A7 /* Pods-ImageMachineUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachineUITests-Info.plist"; sourceTree = "<group>"; };
-		534224BA6C00EA7881D9E6E15048097F /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
-		56CB867F2B18064EC0674ECBD7CA8413 /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
-		5FCF53F7E473C745063780FB8FB0651F /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "TLPhotoPicker/Classes/TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
+		4E7F75FE2DB7944CFC283B2EF121B8C7 /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
+		4EE3F7079C5989B34E1AC4B05DFB29BD /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
+		4F0DFE61686481BD18EA9B0E5E4632AE /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		53BAFF138028624F2FEF057875A4F779 /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
+		540050411666D2359DB63B3A1C792B9C /* PreferencesType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreferencesType.swift; path = Sources/PreferencesType.swift; sourceTree = "<group>"; };
+		5F72DE7CAE3667B9996E266357CD5984 /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TLPhotoPicker.bundle; path = "TLPhotoPicker-TLPhotoPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AC7337BE84F22CA1771B850F9EA467 /* PreferenceTransformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreferenceTransformation.swift; path = Sources/PreferenceTransformation.swift; sourceTree = "<group>"; };
+		61D16110B3B634D9936EF617050B926B /* PropertyListKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyListKeys.swift; path = Sources/Keys/PropertyListKeys.swift; sourceTree = "<group>"; };
 		62EF0B4C337A17A28C1EE687605A3A66 /* Pods-ImageMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachine.release.xcconfig"; sourceTree = "<group>"; };
-		6322E1E1189951CAC354E28AAF20ED18 /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
-		6948045626D64BC5D16FF6E9D04CEB34 /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
+		63ED484FD4E60999552ADBD852CD4F7E /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = Sources/Bundle.swift; sourceTree = "<group>"; };
+		64E5ED7A5509D056274E161322A86186 /* Preference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Preference.swift; path = Sources/Preference.swift; sourceTree = "<group>"; };
+		686E691BDF0F496732501132A7947E82 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		6982077123166C3EAA512B0541E7A5FC /* IHKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
 		6B09D71EF0601CAC179F4D37B4080924 /* Pods-ImageMachineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachineTests.debug.xcconfig"; sourceTree = "<group>"; };
-		74B80F8ABC11DFFD68B7BE58419E2FFC /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
-		7A6D84BCDE7C831E44667B6CA57B5FF8 /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
-		7B59535E6376B1702A0B5ED692F48208 /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TLPhotoPicker.bundle; path = "TLPhotoPicker-TLPhotoPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8209CC10635882A5940D9E64DC09F5 /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
+		76B6DE3FEA81B8092AF66D34A92C7685 /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
+		79239136D2FCC866A0EA2B8D1D18C9F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7927BFE01A6A8D2CB39BAFDE24A81754 /* PreferencesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreferencesController.swift; path = Sources/PreferencesController.swift; sourceTree = "<group>"; };
+		7B21E2FC7A9DFA67B340BB796A03F2C3 /* QRCodeReader.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRCodeReader.swift-Info.plist"; sourceTree = "<group>"; };
+		7BD96FCA00531A95F6DC0E4FC243E3B4 /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		7BDC002CA3F92607BD22905FF7D92E2D /* Pods-ImageMachineTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachineTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		854545D98AD12B4E1899D11D7724750D /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
-		8BC7069C6CC1CA8936BEF159570EFD0E /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLPhotoPicker.framework; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F8B077304B6FAD57228480E9C187D59 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		9099BB7026C841F3EF1BA20B4E5AEC2D /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
+		7C8D9BCF673897401FF393072E28EC46 /* NSCachePreferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSCachePreferences.swift; path = Sources/NSCachePreferences.swift; sourceTree = "<group>"; };
+		7D7FA33126134CA343F0EBF28ED5843E /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = Sources/KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		801041ECC7E2ABC5477F6863061E4A72 /* Prephirencable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prephirencable.swift; path = Sources/Prephirencable.swift; sourceTree = "<group>"; };
+		819BDCD6FFA28BCD3C5BF87DBBBB11D5 /* IHKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		88E9096989A2B2215D23502F0E041B8E /* Prephirences-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Prephirences-Info.plist"; sourceTree = "<group>"; };
+		8C02419720A1D74D0EBC8BE4B79732FB /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLPhotoPicker.framework; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3FDDF944CA823AE7EBDF2F70E08038 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
+		90A98222769D0508ACF6855FB28BEBEB /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		90B5DF277B8487EB8F99517FC98BA82D /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
 		91B13DE2A807D6C4B6FA9DB95B6E5D17 /* Pods-ImageMachineTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageMachineTests-umbrella.h"; sourceTree = "<group>"; };
 		92B2CDD99B1BBE1614598C05F48AF769 /* Pods-ImageMachineTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageMachineTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		945DDC0AEB36CF0DEA2BC449108D6568 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
-		9B4DA1911A088FC199C5E44947DE6CE1 /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
+		93A5E518E2AEA6EF9D64484E3324E06B /* IHKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IHKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		94C5A514411A33A52259041C089873D7 /* UserDefaults+Prephirences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+Prephirences.swift"; path = "Sources/UserDefaults+Prephirences.swift"; sourceTree = "<group>"; };
+		95B7ED344789A2A71B8A5F7DB903C6A3 /* Pods_ImageMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachine.framework; path = "Pods-ImageMachine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A727EDA50F6B1F8496DE10BA37A56E8 /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A03FC8BBCB670D2D9B2A6F4378A96219 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
 		A136E5D3DAAEB0FC8D873CCF547871AD /* Pods-ImageMachine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageMachine-dummy.m"; sourceTree = "<group>"; };
+		A1A00018A5E1878FEB61D53D08A7FD52 /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
 		A4E013924EF570CF761A17B207275909 /* Pods-ImageMachineUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageMachineUITests-umbrella.h"; sourceTree = "<group>"; };
-		A5338B4FEAE47B6B49B0310E2FECA947 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
-		AAE1C4799B9A4ABAADC06B67EA716FB9 /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
-		AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AD38BFD9FE0FD91EA7627C66E3AACA5E /* TLPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.xcconfig; sourceTree = "<group>"; };
-		AF40ADC6FF8B6E5F5C118AEFD20C84B8 /* Pods_ImageMachineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachineUITests.framework; path = "Pods-ImageMachineUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B01C13C2FDE33BBA1D8E85D9E12B7DC9 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		A7334032473D204C58BDB0E6413E1125 /* NSHTTPCookieStorage+Prephirences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSHTTPCookieStorage+Prephirences.swift"; path = "Sources/NSHTTPCookieStorage+Prephirences.swift"; sourceTree = "<group>"; };
+		A86F22B20E4D12C61E64C2E8BC8D54F8 /* PrephirenceType+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PrephirenceType+Codable.swift"; path = "Sources/PrephirenceType+Codable.swift"; sourceTree = "<group>"; };
+		AA2BA535E4807C18F360818BAD98BE99 /* IHKeyboardAvoiding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IHKeyboardAvoiding-Info.plist"; sourceTree = "<group>"; };
+		AFAA1E6A3F84580A93A9EF014CF29ECC /* TLPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.xcconfig; sourceTree = "<group>"; };
+		AFFD4C7BA9E0401074F65823280ACB5A /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		B6F8E113FEEC30013CB6151D11973F37 /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
 		B738CA07BBB9AE590503F95305D28AC1 /* Pods-ImageMachineTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageMachineTests.modulemap"; sourceTree = "<group>"; };
-		BEBB52185B09B80C7186E241DBECB88C /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		B8925222CA1AE0BA436C022AE978CC6C /* NSCoder+Prephirences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSCoder+Prephirences.swift"; path = "Sources/NSCoder+Prephirences.swift"; sourceTree = "<group>"; };
+		B9CB8FF9CC1ECD12A4CEFD92C38E668F /* Prephirences.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Prephirences.modulemap; sourceTree = "<group>"; };
+		BCA33E700B5E5EDE3C8E014BA8BB1C2C /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
+		BDBC9C6306E2907909A153DAF828FD2A /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF838E125871A7BDBB051A4E7678CEE6 /* Pods-ImageMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachine.debug.xcconfig"; sourceTree = "<group>"; };
+		C1BC6E7E21CEA4E9F2CBE12BD15F63AA /* IHKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		C3EB422F702A036C6E0720F5FB62661A /* NSUbiquitousKeyValueStore+Prephirences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSUbiquitousKeyValueStore+Prephirences.swift"; path = "Sources/NSUbiquitousKeyValueStore+Prephirences.swift"; sourceTree = "<group>"; };
 		C96FDA2AF3448BC8E6C466E4E5A2C662 /* Pods-ImageMachine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageMachine-umbrella.h"; sourceTree = "<group>"; };
+		CA61967C236BE33601CDF07310F29002 /* Prephirences-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Prephirences-prefix.pch"; sourceTree = "<group>"; };
+		CD2897A380E5F47CC49234857C60B04E /* Pods_ImageMachineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachineUITests.framework; path = "Pods-ImageMachineUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1417A27BDFD29354A42B29D1EC2CFC6 /* Pods-ImageMachine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageMachine.modulemap"; sourceTree = "<group>"; };
 		D523B9D513271D4212B3BFCF2619C426 /* Pods-ImageMachineUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageMachineUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5442BCA64F24DAF329D470B5C3670A4 /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
 		D5F955FEA8846924C52BCFA0140BF1CC /* Pods-ImageMachineUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachineUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D76BAFE30EC95D952E37ACFC9958D58D /* Pods-ImageMachineUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageMachineUITests-dummy.m"; sourceTree = "<group>"; };
-		DB37C1417089BFD8B2A6CD11AE015A2F /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
+		D802E3F7F6395333C8601F25C26ACB7D /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
+		E121677C32B13A151E5DE7136FDEA404 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
+		E1D9B50C01B2FC8340289BBC769F486E /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
+		E4AA15F341AE9AD67C40B7B6BE13947D /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
 		E4C8552B0A319F717E50F4A404B3EDA5 /* Pods-ImageMachineTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageMachineTests-dummy.m"; sourceTree = "<group>"; };
 		E7F7246B3BB0A209732E8CAC02F21C27 /* Pods-ImageMachineUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageMachineUITests.modulemap"; sourceTree = "<group>"; };
+		E9D6287870AFD097DB93653F9D3602D3 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "TLPhotoPicker/Classes/TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
 		EA040042CC6E1742BD622769AC04DD06 /* Pods-ImageMachineTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachineTests-Info.plist"; sourceTree = "<group>"; };
-		EA63DE9A388033AF363BE66AE06C12A3 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
-		EC7466D878EA94D577D62F4ED005CADE /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
-		EED4C261F9130E5138C7171AEB00494C /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
-		F1629FE05F9BACA9BEF0E72677816124 /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
+		F0CEB0261935060D9206F0EFDC0AA0A5 /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotopickerDataSourcesProtocol.swift; path = TLPhotoPicker/Classes/TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
 		F25579EAD3540AB948D1489A411626E1 /* Pods-ImageMachineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F347ACC2B04F7D80A49F550FDABBEB2A /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
+		F57343DD6F588358F6909C679840A2BB /* Prephirences.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Prephirences.xcconfig; sourceTree = "<group>"; };
+		F8C42AD1EF2855A7E737A62E65965618 /* DictionaryPreferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryPreferences.swift; path = Sources/DictionaryPreferences.swift; sourceTree = "<group>"; };
+		FB55EBB9EA682E491D0C06A2F48525D1 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsKeys.swift; path = Sources/Keys/UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		FB7A9731529A7C0EB1D9B80E605F4EDA /* PreferencesOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreferencesOperators.swift; path = Sources/PreferencesOperators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43A20295AF39E5ECEC4D653FEF433C1F /* Frameworks */ = {
+		4D608F248E7F18BBE38C32BB775208BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92EE019E7AA6D93EC0967F23748B5E68 /* Foundation.framework in Frameworks */,
+				97B8770691A088779A0AABA4B624C270 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49373557FF3409CA3460B1141DC406FF /* Frameworks */ = {
+		6035012FD5F99F1778113DB66BE9D400 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C55C044AEF7A1FA1364162509A74BFA /* Foundation.framework in Frameworks */,
+				BF6165678FFA58F2A6564F550367E1B0 /* Foundation.framework in Frameworks */,
+				ECF56E19D4F0E2735636297AF654D22D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,12 +273,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB1C214CC9DD6D49033BAFC0A72C5614 /* Frameworks */ = {
+		B10376D39BD11E417602D6C8AB8A9C57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD252DAE15321A041A028FC11A3E72F3 /* AVFoundation.framework in Frameworks */,
-				E7AA5154F24EDE1E6B3447A17368D5EE /* Foundation.framework in Frameworks */,
+				DBA07108305BAC15C5E9DE28FD9C3ABF /* AVFoundation.framework in Frameworks */,
+				AD934DE0D26A0BB31F60944548D056F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5C44FC99B66127C34D2388BC7F1874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757DC2E4EB7BB53C55009E25D059501B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCB2C0E25986B075DB4AB49A524F00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD49EC278F3771A729346A4FD244DB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11531ED22AEAF2E99BDF39CCCA126D71 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,13 +310,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3161DCEB7796883969DB5A64540EE619 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FE8F2AD90FCA802EA8E0E2ACC77CA6CC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,82 +333,79 @@
 			path = "Target Support Files/Pods-ImageMachine";
 			sourceTree = "<group>";
 		};
-		1182D093C87FE56EBE7E0D119E3F54AC /* Pods */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5BB94460AAAB8913F2F7E61CD5B86D4E /* QRCodeReader.swift */,
-				837BBC020312B89B36F5719528F600B2 /* TLPhotoPicker */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E2FA75308FAE7D777CB172FB0AE44E3A /* iOS */,
+				F344D71468F92544F45092FF0BB7539A /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		342CF64834C48B4D3F4FAA9037920049 /* Products */ = {
+		0B140321DB7F92B942A0EEAD489FB608 /* QRCodeReader.swift */ = {
 			isa = PBXGroup;
 			children = (
-				1CDE57F47C540B05DBF1A7D9E04970CE /* Pods_ImageMachine.framework */,
-				1F9A879ECFA664ABAA50F69E5F889F22 /* Pods_ImageMachineTests.framework */,
-				AF40ADC6FF8B6E5F5C118AEFD20C84B8 /* Pods_ImageMachineUITests.framework */,
-				2A1B1A9908884AEAC65B573583A35F6C /* QRCodeReader.framework */,
-				7B59535E6376B1702A0B5ED692F48208 /* TLPhotoPicker.bundle */,
-				8BC7069C6CC1CA8936BEF159570EFD0E /* TLPhotoPicker.framework */,
+				53BAFF138028624F2FEF057875A4F779 /* QRCodeReader.swift */,
+				4F0DFE61686481BD18EA9B0E5E4632AE /* QRCodeReaderResult.swift */,
+				E1D9B50C01B2FC8340289BBC769F486E /* QRCodeReaderView.swift */,
+				12FE69F3735C75612A5E5FBEE3D02D8B /* QRCodeReaderViewContainer.swift */,
+				1386C4BB57CFE450713BAA46A86B9B44 /* QRCodeReaderViewController.swift */,
+				A03FC8BBCB670D2D9B2A6F4378A96219 /* QRCodeReaderViewControllerBuilder.swift */,
+				E4AA15F341AE9AD67C40B7B6BE13947D /* QRCodeReaderViewControllerDelegate.swift */,
+				686E691BDF0F496732501132A7947E82 /* ReaderOverlayView.swift */,
+				193D539D4370255177CE04B1D07437C5 /* SwitchCameraButton.swift */,
+				4EE3F7079C5989B34E1AC4B05DFB29BD /* ToggleTorchButton.swift */,
+				E1E81F69031FB9535D3A3E77BBF2E33E /* Support Files */,
+			);
+			name = QRCodeReader.swift;
+			path = QRCodeReader.swift;
+			sourceTree = "<group>";
+		};
+		20628BBFDD5E4FCE26394165EDB23A01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				482ABF1DBADE5409DE2325A1736A5A3B /* IHKeyboardAvoiding.framework */,
+				95B7ED344789A2A71B8A5F7DB903C6A3 /* Pods_ImageMachine.framework */,
+				28B812811118D0CE9DC056B914E5E207 /* Pods_ImageMachineTests.framework */,
+				CD2897A380E5F47CC49234857C60B04E /* Pods_ImageMachineUITests.framework */,
+				3E4BEDD5AA075989BC9F47756D213BD9 /* Prephirences.framework */,
+				BDBC9C6306E2907909A153DAF828FD2A /* QRCodeReader.framework */,
+				5F72DE7CAE3667B9996E266357CD5984 /* TLPhotoPicker.bundle */,
+				8C02419720A1D74D0EBC8BE4B79732FB /* TLPhotoPicker.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A41BCB83C1B51049E70738AA5EC361A /* Support Files */ = {
+		5A8AAA7E0B015E1E318C5185183003BA /* TLPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
-				534224BA6C00EA7881D9E6E15048097F /* QRCodeReader.swift.modulemap */,
-				F1629FE05F9BACA9BEF0E72677816124 /* QRCodeReader.swift.xcconfig */,
-				12C0F41F9EB40345B3E86551BEBCA5FC /* QRCodeReader.swift-dummy.m */,
-				2E3BE003FEA7912E6F8CD995A7C82CE4 /* QRCodeReader.swift-Info.plist */,
-				EED4C261F9130E5138C7171AEB00494C /* QRCodeReader.swift-prefix.pch */,
-				1C6039E02EE27E03759B84DED1ADC4EA /* QRCodeReader.swift-umbrella.h */,
+				B6F8E113FEEC30013CB6151D11973F37 /* TLAlbumPopView.swift */,
+				E9D6287870AFD097DB93653F9D3602D3 /* TLAssetCollection+Extension.swift */,
+				6F8209CC10635882A5940D9E64DC09F5 /* TLAssetsCollection.swift */,
+				D802E3F7F6395333C8601F25C26ACB7D /* TLBundle.swift */,
+				AFFD4C7BA9E0401074F65823280ACB5A /* TLCollectionTableViewCell.swift */,
+				90B5DF277B8487EB8F99517FC98BA82D /* TLCollectionTableViewCell.xib */,
+				7BD96FCA00531A95F6DC0E4FC243E3B4 /* TLPhotoCollectionViewCell.swift */,
+				90A98222769D0508ACF6855FB28BEBEB /* TLPhotoCollectionViewCell.xib */,
+				106BC1AE34C9CF53A26F2F259CF3EA20 /* TLPhotoLibrary.swift */,
+				F0CEB0261935060D9206F0EFDC0AA0A5 /* TLPhotopickerDataSourcesProtocol.swift */,
+				8C3FDDF944CA823AE7EBDF2F70E08038 /* TLPhotosPickerViewController.swift */,
+				3B6724169855B4846A2E3698C6C9FD2B /* TLPhotosPickerViewController.xib */,
+				D4422416EE78B52722DB0F44FE332AD7 /* Resources */,
+				80305C2428B69D35EC49D42C89B2F941 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/QRCodeReader.swift";
+			name = TLPhotoPicker;
+			path = TLPhotoPicker;
 			sourceTree = "<group>";
 		};
-		5211C3AF0EEAC41564F8C3007F025361 /* Support Files */ = {
+		664EB8122977CF054BF544F8B2685017 /* IHKeyboardAvoiding */ = {
 			isa = PBXGroup;
 			children = (
-				7A6D84BCDE7C831E44667B6CA57B5FF8 /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */,
-				9099BB7026C841F3EF1BA20B4E5AEC2D /* TLPhotoPicker.modulemap */,
-				AD38BFD9FE0FD91EA7627C66E3AACA5E /* TLPhotoPicker.xcconfig */,
-				19A64CE28A9E5DAA8C904F7385572EB8 /* TLPhotoPicker-dummy.m */,
-				0EC4F7772C9DDDDFFEF97C1E0B8BC5FF /* TLPhotoPicker-Info.plist */,
-				9B4DA1911A088FC199C5E44947DE6CE1 /* TLPhotoPicker-prefix.pch */,
-				6322E1E1189951CAC354E28AAF20ED18 /* TLPhotoPicker-umbrella.h */,
+				19D822685F0411B9FEDC356F78BBD494 /* KeyboardAvoiding.swift */,
+				7D7FA33126134CA343F0EBF28ED5843E /* KeyboardDismissingView.swift */,
+				FF632F29D4FDCA694556CFA8D43BD7F7 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TLPhotoPicker";
-			sourceTree = "<group>";
-		};
-		5BB94460AAAB8913F2F7E61CD5B86D4E /* QRCodeReader.swift */ = {
-			isa = PBXGroup;
-			children = (
-				4624D9BE180404A465D7DB6BF888239B /* QRCodeReader.swift */,
-				B01C13C2FDE33BBA1D8E85D9E12B7DC9 /* QRCodeReaderResult.swift */,
-				DB37C1417089BFD8B2A6CD11AE015A2F /* QRCodeReaderView.swift */,
-				BEBB52185B09B80C7186E241DBECB88C /* QRCodeReaderViewContainer.swift */,
-				2FB3101697D06BD051E75BD755E47A38 /* QRCodeReaderViewController.swift */,
-				A5338B4FEAE47B6B49B0310E2FECA947 /* QRCodeReaderViewControllerBuilder.swift */,
-				854545D98AD12B4E1899D11D7724750D /* QRCodeReaderViewControllerDelegate.swift */,
-				35ACDCDE90D762BA380A8AC987FAFE6E /* ReaderOverlayView.swift */,
-				945DDC0AEB36CF0DEA2BC449108D6568 /* SwitchCameraButton.swift */,
-				74B80F8ABC11DFFD68B7BE58419E2FFC /* ToggleTorchButton.swift */,
-				4A41BCB83C1B51049E70738AA5EC361A /* Support Files */,
-			);
-			name = QRCodeReader.swift;
-			path = QRCodeReader.swift;
+			name = IHKeyboardAvoiding;
+			path = IHKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
 		66C3387985806152B1E58976A6AA6F51 /* Pods-ImageMachineUITests */ = {
@@ -326,12 +424,13 @@
 			path = "Target Support Files/Pods-ImageMachineUITests";
 			sourceTree = "<group>";
 		};
-		6BD30FBDC488B2E4E03AF0DD317E051E /* Resources */ = {
+		742A97C86E8BF238F6C140E8D858B9F6 /* Keys */ = {
 			isa = PBXGroup;
 			children = (
-				2778878B76E8D2B25CAFB956B93D9797 /* TLPhotoPickerController.bundle */,
+				61D16110B3B634D9936EF617050B926B /* PropertyListKeys.swift */,
+				FB55EBB9EA682E491D0C06A2F48525D1 /* UserDefaultsKeys.swift */,
 			);
-			name = Resources;
+			name = Keys;
 			sourceTree = "<group>";
 		};
 		7A852C6AACEF960BB16ECE358A03D875 /* Targets Support Files */ = {
@@ -342,6 +441,32 @@
 				66C3387985806152B1E58976A6AA6F51 /* Pods-ImageMachineUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7EBB8CFE8C3D939BC45B4E473434EDFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				664EB8122977CF054BF544F8B2685017 /* IHKeyboardAvoiding */,
+				CA679298E86833103624FCDA40CD2D7A /* Prephirences */,
+				0B140321DB7F92B942A0EEAD489FB608 /* QRCodeReader.swift */,
+				5A8AAA7E0B015E1E318C5185183003BA /* TLPhotoPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80305C2428B69D35EC49D42C89B2F941 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13CA08CA66471EBBB012D75CE604EC78 /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */,
+				A1A00018A5E1878FEB61D53D08A7FD52 /* TLPhotoPicker.modulemap */,
+				AFAA1E6A3F84580A93A9EF014CF29ECC /* TLPhotoPicker.xcconfig */,
+				76B6DE3FEA81B8092AF66D34A92C7685 /* TLPhotoPicker-dummy.m */,
+				3CD33883F3C6993580027D4C8FE9B813 /* TLPhotoPicker-Info.plist */,
+				BCA33E700B5E5EDE3C8E014BA8BB1C2C /* TLPhotoPicker-prefix.pch */,
+				42D64B8C50105AA95E9FC15A5EA8D8E1 /* TLPhotoPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TLPhotoPicker";
 			sourceTree = "<group>";
 		};
 		8202E124D8649529589F99589107D2D8 /* Pods-ImageMachineTests */ = {
@@ -360,72 +485,147 @@
 			path = "Target Support Files/Pods-ImageMachineTests";
 			sourceTree = "<group>";
 		};
-		837BBC020312B89B36F5719528F600B2 /* TLPhotoPicker */ = {
+		BCF43FF181C700D24FBD4AADF047D06C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				4260C39362E14CF9DCD95116D590F4D4 /* TLAlbumPopView.swift */,
-				5FCF53F7E473C745063780FB8FB0651F /* TLAssetCollection+Extension.swift */,
-				56CB867F2B18064EC0674ECBD7CA8413 /* TLAssetsCollection.swift */,
-				0E8B161D353C1466DAFD1D5983CAD5FD /* TLBundle.swift */,
-				4867EBB2AFAB9F289C505E88919E2239 /* TLCollectionTableViewCell.swift */,
-				327996E101DB5FD4C519DA29652CFCCD /* TLCollectionTableViewCell.xib */,
-				EC7466D878EA94D577D62F4ED005CADE /* TLPhotoCollectionViewCell.swift */,
-				0A6C8DEFC0CC4DBE700DB0343BCD5D34 /* TLPhotoCollectionViewCell.xib */,
-				AAE1C4799B9A4ABAADC06B67EA716FB9 /* TLPhotoLibrary.swift */,
-				17FFCA0D13B1DAFBA963BF6A7AD785C5 /* TLPhotopickerDataSourcesProtocol.swift */,
-				EA63DE9A388033AF363BE66AE06C12A3 /* TLPhotosPickerViewController.swift */,
-				6948045626D64BC5D16FF6E9D04CEB34 /* TLPhotosPickerViewController.xib */,
-				6BD30FBDC488B2E4E03AF0DD317E051E /* Resources */,
-				5211C3AF0EEAC41564F8C3007F025361 /* Support Files */,
+				63ED484FD4E60999552ADBD852CD4F7E /* Bundle.swift */,
+				F8C42AD1EF2855A7E737A62E65965618 /* DictionaryPreferences.swift */,
+				3B636FC54DAB50F3D85F0A7E7016774E /* KeychainPreferences.swift */,
+				7C8D9BCF673897401FF393072E28EC46 /* NSCachePreferences.swift */,
+				B8925222CA1AE0BA436C022AE978CC6C /* NSCoder+Prephirences.swift */,
+				A7334032473D204C58BDB0E6413E1125 /* NSHTTPCookieStorage+Prephirences.swift */,
+				C3EB422F702A036C6E0720F5FB62661A /* NSUbiquitousKeyValueStore+Prephirences.swift */,
+				3052BCB80EFFF997B3D33A4EC718166D /* PatternPreferences.swift */,
+				445E47484A8148AD0B11BD541856A232 /* Plist.swift */,
+				64E5ED7A5509D056274E161322A86186 /* Preference.swift */,
+				11DEF9D41960FF37B637AB7A2A18C390 /* PreferenceOperators.swift */,
+				7927BFE01A6A8D2CB39BAFDE24A81754 /* PreferencesController.swift */,
+				FB7A9731529A7C0EB1D9B80E605F4EDA /* PreferencesOperators.swift */,
+				540050411666D2359DB63B3A1C792B9C /* PreferencesType.swift */,
+				61AC7337BE84F22CA1771B850F9EA467 /* PreferenceTransformation.swift */,
+				801041ECC7E2ABC5477F6863061E4A72 /* Prephirencable.swift */,
+				0D7A89DB3175184A374814FC692508F3 /* Prephirences.swift */,
+				A86F22B20E4D12C61E64C2E8BC8D54F8 /* PrephirenceType+Codable.swift */,
+				4BC66B36466CD96507D569EC1F2FFC58 /* ReflectingPreferences.swift */,
+				94C5A514411A33A52259041C089873D7 /* UserDefaults+Prephirences.swift */,
 			);
-			name = TLPhotoPicker;
-			path = TLPhotoPicker;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CA679298E86833103624FCDA40CD2D7A /* Prephirences */ = {
+			isa = PBXGroup;
+			children = (
+				BCF43FF181C700D24FBD4AADF047D06C /* Core */,
+				742A97C86E8BF238F6C140E8D858B9F6 /* Keys */,
+				D0EE72E0C128C4FDE2638FEB75DFE359 /* Support Files */,
+			);
+			name = Prephirences;
+			path = Prephirences;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				1182D093C87FE56EBE7E0D119E3F54AC /* Pods */,
-				342CF64834C48B4D3F4FAA9037920049 /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				7EBB8CFE8C3D939BC45B4E473434EDFA /* Pods */,
+				20628BBFDD5E4FCE26394165EDB23A01 /* Products */,
 				7A852C6AACEF960BB16ECE358A03D875 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E2FA75308FAE7D777CB172FB0AE44E3A /* iOS */ = {
+		D0EE72E0C128C4FDE2638FEB75DFE359 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F8B077304B6FAD57228480E9C187D59 /* AVFoundation.framework */,
-				AC350AAE8CA3FEB3F37E6BB16B77F571 /* Foundation.framework */,
+				B9CB8FF9CC1ECD12A4CEFD92C38E668F /* Prephirences.modulemap */,
+				F57343DD6F588358F6909C679840A2BB /* Prephirences.xcconfig */,
+				013EE696B16DAEA605DA824FE6E9C304 /* Prephirences-dummy.m */,
+				88E9096989A2B2215D23502F0E041B8E /* Prephirences-Info.plist */,
+				CA61967C236BE33601CDF07310F29002 /* Prephirences-prefix.pch */,
+				22940AC00196DB1BDB42228D03D9D531 /* Prephirences-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Prephirences";
+			sourceTree = "<group>";
+		};
+		D4422416EE78B52722DB0F44FE332AD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F347ACC2B04F7D80A49F550FDABBEB2A /* TLPhotoPickerController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E1E81F69031FB9535D3A3E77BBF2E33E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E121677C32B13A151E5DE7136FDEA404 /* QRCodeReader.swift.modulemap */,
+				2C36F40665D48E2CD7333C3073057290 /* QRCodeReader.swift.xcconfig */,
+				9A727EDA50F6B1F8496DE10BA37A56E8 /* QRCodeReader.swift-dummy.m */,
+				7B21E2FC7A9DFA67B340BB796A03F2C3 /* QRCodeReader.swift-Info.plist */,
+				4E7F75FE2DB7944CFC283B2EF121B8C7 /* QRCodeReader.swift-prefix.pch */,
+				21A443A75F842BCCBBB9FA49D56D945A /* QRCodeReader.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QRCodeReader.swift";
+			sourceTree = "<group>";
+		};
+		F344D71468F92544F45092FF0BB7539A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				38C011026CE3924351BF5E4F9B40AC59 /* AVFoundation.framework */,
+				064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */,
+				79239136D2FCC866A0EA2B8D1D18C9F0 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF632F29D4FDCA694556CFA8D43BD7F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93A5E518E2AEA6EF9D64484E3324E06B /* IHKeyboardAvoiding.modulemap */,
+				C1BC6E7E21CEA4E9F2CBE12BD15F63AA /* IHKeyboardAvoiding.xcconfig */,
+				D5442BCA64F24DAF329D470B5C3670A4 /* IHKeyboardAvoiding-dummy.m */,
+				AA2BA535E4807C18F360818BAD98BE99 /* IHKeyboardAvoiding-Info.plist */,
+				819BDCD6FFA28BCD3C5BF87DBBBB11D5 /* IHKeyboardAvoiding-prefix.pch */,
+				6982077123166C3EAA512B0541E7A5FC /* IHKeyboardAvoiding-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IHKeyboardAvoiding";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F0A8CD0B9739ED749436247F8A53AE2 /* Headers */ = {
+		25E5FE9D2B8DAE478C6BC34DF33C9681 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9E27C65C376D4BB3421392CBDDEEAE /* Pods-ImageMachine-umbrella.h in Headers */,
+				E463E778C433F86C218E042D5A3CDCE7 /* Prephirences-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42C4CB0F6EFD3D0F913C8A139D31BE1A /* Headers */ = {
+		511A682BCC4F60F7C1E82D858A33119A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D760A3A60B8D3799B6752F60CE14FC /* QRCodeReader.swift-umbrella.h in Headers */,
+				A81CE50914BF30F36D55DCCAFC2337CC /* IHKeyboardAvoiding-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0E96C6097E83F87CFC7F858FBB023EA /* Headers */ = {
+		5956711CD3AAB4D85DC684CBB87A9750 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE03C4229D080F421914A33FF821FAF2 /* TLPhotoPicker-umbrella.h in Headers */,
+				4827A530CC8EFE64A8EC0D834EBA7A0E /* QRCodeReader.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA5DED72D7CD1E3E84166AA7442AC84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E70EB7F52A6CA3BE763DC0C98E78BB /* TLPhotoPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +634,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC68303A9A165B9B52D0725EE0503E59 /* Pods-ImageMachineTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74296F0FBD5B4BDB4B9F82833317654 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE49E5B0BAE4FE5DA97C233DF5A8CCC /* Pods-ImageMachine-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,73 +672,17 @@
 			);
 			name = "Pods-ImageMachineTests";
 			productName = "Pods-ImageMachineTests";
-			productReference = 1F9A879ECFA664ABAA50F69E5F889F22 /* Pods_ImageMachineTests.framework */;
+			productReference = 28B812811118D0CE9DC056B914E5E207 /* Pods_ImageMachineTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		42254A2CBFF110D5EBECD6DF3CEE6955 /* TLPhotoPicker-TLPhotoPicker */ = {
+		1A451EE955868C01D9E48F8333DE9C0A /* QRCodeReader.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A94DAF35DC907720F58B9F6B842A13BF /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
+			buildConfigurationList = 1A815CCA77D1AF66CE7BA214B4A5419C /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
 			buildPhases = (
-				F47B261EA506914B5B1B28CC26232989 /* Sources */,
-				FE8F2AD90FCA802EA8E0E2ACC77CA6CC /* Frameworks */,
-				945245CA028740436D4D51EE72661474 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TLPhotoPicker-TLPhotoPicker";
-			productName = "TLPhotoPicker-TLPhotoPicker";
-			productReference = 7B59535E6376B1702A0B5ED692F48208 /* TLPhotoPicker.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		59102F9F29C57AA27DD4184335CFED77 /* Pods-ImageMachine */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C8CDFCE8F97ED7951B3811796EAB82B8 /* Build configuration list for PBXNativeTarget "Pods-ImageMachine" */;
-			buildPhases = (
-				0F0A8CD0B9739ED749436247F8A53AE2 /* Headers */,
-				12598F32C777AC3F25CB743EFE28D864 /* Sources */,
-				43A20295AF39E5ECEC4D653FEF433C1F /* Frameworks */,
-				2D6F4EF9D143069D587D11E7BBA83E40 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE93014DBF3666B23F47B5510473BEC0 /* PBXTargetDependency */,
-				27AB95F693CB7C7DA7F6F4EF98CBC7F3 /* PBXTargetDependency */,
-			);
-			name = "Pods-ImageMachine";
-			productName = "Pods-ImageMachine";
-			productReference = 1CDE57F47C540B05DBF1A7D9E04970CE /* Pods_ImageMachine.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		87DF7C4F70B44F50A2E3B362CADA8D0B /* TLPhotoPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B57C1CFC8654D899C527BA49AEF58463 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */;
-			buildPhases = (
-				D0E96C6097E83F87CFC7F858FBB023EA /* Headers */,
-				ED59A1B7CBB1DF1F421315A9085AF673 /* Sources */,
-				49373557FF3409CA3460B1141DC406FF /* Frameworks */,
-				2AB45CC1D6636CF2EE345E5710B25154 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D7A67CC161598DED6C8C842EAE74E20 /* PBXTargetDependency */,
-			);
-			name = TLPhotoPicker;
-			productName = TLPhotoPicker;
-			productReference = 8BC7069C6CC1CA8936BEF159570EFD0E /* TLPhotoPicker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9C403816E7655356B254490C0AC8D868 /* QRCodeReader.swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 747AA5A95EA44B19DCD13AA20756FD78 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
-			buildPhases = (
-				42C4CB0F6EFD3D0F913C8A139D31BE1A /* Headers */,
-				DAC6B94D6E0EFF630E78BC7196F5381F /* Sources */,
-				EB1C214CC9DD6D49033BAFC0A72C5614 /* Frameworks */,
-				9157D6F87745ED60F6C9C1F25821ECA2 /* Resources */,
+				5956711CD3AAB4D85DC684CBB87A9750 /* Headers */,
+				70BCFA0FE510822EB4F974BE65E73720 /* Sources */,
+				B10376D39BD11E417602D6C8AB8A9C57 /* Frameworks */,
+				ED49844403B0A45AD20B551E82F46B25 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -538,7 +690,101 @@
 			);
 			name = QRCodeReader.swift;
 			productName = QRCodeReader.swift;
-			productReference = 2A1B1A9908884AEAC65B573583A35F6C /* QRCodeReader.framework */;
+			productReference = BDBC9C6306E2907909A153DAF828FD2A /* QRCodeReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BAD7E7EC46A0B6B845E301A98195DD8 /* Prephirences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE78863E8236824995B83F30DE053D9 /* Build configuration list for PBXNativeTarget "Prephirences" */;
+			buildPhases = (
+				25E5FE9D2B8DAE478C6BC34DF33C9681 /* Headers */,
+				F65F62CB2803EF7765F37A6E5DE6A882 /* Sources */,
+				4D608F248E7F18BBE38C32BB775208BF /* Frameworks */,
+				99BB737BA353B92189E39745E9305901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prephirences;
+			productName = Prephirences;
+			productReference = 3E4BEDD5AA075989BC9F47756D213BD9 /* Prephirences.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A2876118F66A5C51DE323A15F47B53D /* IHKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40289C45A8C5204725AC4456EF9CC03 /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */;
+			buildPhases = (
+				511A682BCC4F60F7C1E82D858A33119A /* Headers */,
+				C5269A6AC1814121E12543548BF22D23 /* Sources */,
+				6035012FD5F99F1778113DB66BE9D400 /* Frameworks */,
+				ABDD790A9697FC50B064F652F720E527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IHKeyboardAvoiding;
+			productName = IHKeyboardAvoiding;
+			productReference = 482ABF1DBADE5409DE2325A1736A5A3B /* IHKeyboardAvoiding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85F288DB1243CEFA64EC7CC0BE629104 /* TLPhotoPicker-TLPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25506EC6916748270639D235A70FF742 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
+			buildPhases = (
+				903B93EA4085881C6BA8F957B0983E6B /* Sources */,
+				CBCB2C0E25986B075DB4AB49A524F00A /* Frameworks */,
+				488476DC477133D440ADFB61CD77C860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TLPhotoPicker-TLPhotoPicker";
+			productName = "TLPhotoPicker-TLPhotoPicker";
+			productReference = 5F72DE7CAE3667B9996E266357CD5984 /* TLPhotoPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BFC2A133CA771F10B4F51D714FB811A6 /* Pods-ImageMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B2FC9399AD42866729CED0A1FFE1A7 /* Build configuration list for PBXNativeTarget "Pods-ImageMachine" */;
+			buildPhases = (
+				E74296F0FBD5B4BDB4B9F82833317654 /* Headers */,
+				9C71356C5FC87D476479F4718A7D86B5 /* Sources */,
+				BE5C44FC99B66127C34D2388BC7F1874 /* Frameworks */,
+				D1A62D8BF40FA0D53F5E85349FC3737F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21DA8EBD3F91CDC5685A7C707126620 /* PBXTargetDependency */,
+				95C05EF6C752394CCC0B8345C49E6ABF /* PBXTargetDependency */,
+				8B15484C5EA175DC9C959EE10B82B312 /* PBXTargetDependency */,
+				53C83B8C49932465663F1DFBA9580FB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImageMachine";
+			productName = "Pods-ImageMachine";
+			productReference = 95B7ED344789A2A71B8A5F7DB903C6A3 /* Pods_ImageMachine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED8F65E22D66027643F0543B7AC777DF /* TLPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FC77830B3102C5E1F28C7577E3199F /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */;
+			buildPhases = (
+				6FA5DED72D7CD1E3E84166AA7442AC84 /* Headers */,
+				04CA060A21814E03EC7106A4351F68EF /* Sources */,
+				CD49EC278F3771A729346A4FD244DB5E /* Frameworks */,
+				582EF3D5002896526D72DEA0EC5F1BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F6E21821911DFE7349E04E9F0A5083 /* PBXTargetDependency */,
+			);
+			name = TLPhotoPicker;
+			productName = TLPhotoPicker;
+			productReference = 8C02419720A1D74D0EBC8BE4B79732FB /* TLPhotoPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F1B8A2658EAAAB20F0976BD41AF0A098 /* Pods-ImageMachineUITests */ = {
@@ -557,7 +803,7 @@
 			);
 			name = "Pods-ImageMachineUITests";
 			productName = "Pods-ImageMachineUITests";
-			productReference = AF40ADC6FF8B6E5F5C118AEFD20C84B8 /* Pods_ImageMachineUITests.framework */;
+			productReference = CD2897A380E5F47CC49234857C60B04E /* Pods_ImageMachineUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -577,37 +823,23 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 342CF64834C48B4D3F4FAA9037920049 /* Products */;
+			productRefGroup = 20628BBFDD5E4FCE26394165EDB23A01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59102F9F29C57AA27DD4184335CFED77 /* Pods-ImageMachine */,
+				7A2876118F66A5C51DE323A15F47B53D /* IHKeyboardAvoiding */,
+				BFC2A133CA771F10B4F51D714FB811A6 /* Pods-ImageMachine */,
 				08F7450AFDF3B3763063BDC63F41AB32 /* Pods-ImageMachineTests */,
 				F1B8A2658EAAAB20F0976BD41AF0A098 /* Pods-ImageMachineUITests */,
-				9C403816E7655356B254490C0AC8D868 /* QRCodeReader.swift */,
-				87DF7C4F70B44F50A2E3B362CADA8D0B /* TLPhotoPicker */,
-				42254A2CBFF110D5EBECD6DF3CEE6955 /* TLPhotoPicker-TLPhotoPicker */,
+				6BAD7E7EC46A0B6B845E301A98195DD8 /* Prephirences */,
+				1A451EE955868C01D9E48F8333DE9C0A /* QRCodeReader.swift */,
+				ED8F65E22D66027643F0543B7AC777DF /* TLPhotoPicker */,
+				85F288DB1243CEFA64EC7CC0BE629104 /* TLPhotoPicker-TLPhotoPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2AB45CC1D6636CF2EE345E5710B25154 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14D6DB097EA357FDC73D9EBDFE5EDF6D /* TLPhotoPicker.bundle in Resources */,
-				5480A86BE9EE6F50C0B4D0C08F5B9996 /* TLPhotoPickerController.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D6F4EF9D143069D587D11E7BBA83E40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3CE85182D386904BA32AB75942DDF0D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -615,20 +847,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9157D6F87745ED60F6C9C1F25821ECA2 /* Resources */ = {
+		488476DC477133D440ADFB61CD77C860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F0CF2532B5EC7DAF2DE91CC5E85459 /* TLCollectionTableViewCell.xib in Resources */,
+				59704B8D656D7EEADD29EDD45BFDDBC5 /* TLPhotoCollectionViewCell.xib in Resources */,
+				2C7F809BF43811F980989D9FE6677362 /* TLPhotosPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		582EF3D5002896526D72DEA0EC5F1BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40536DED38F6EAC138EDBFB544FABABD /* TLPhotoPicker.bundle in Resources */,
+				237C06A63F93EB5EE6036BB14E0A6012 /* TLPhotoPickerController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BB737BA353B92189E39745E9305901 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		945245CA028740436D4D51EE72661474 /* Resources */ = {
+		ABDD790A9697FC50B064F652F720E527 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB81FB375851372064EB1F25E3146F13 /* TLCollectionTableViewCell.xib in Resources */,
-				6A56B10837A2272CAA20C39B831E56EB /* TLPhotoCollectionViewCell.xib in Resources */,
-				D5690AD261526FBCA75828FD8F3DEFC5 /* TLPhotosPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A62D8BF40FA0D53F5E85349FC3737F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49844403B0A45AD20B551E82F46B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,11 +904,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12598F32C777AC3F25CB743EFE28D864 /* Sources */ = {
+		04CA060A21814E03EC7106A4351F68EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71EED00291032E6C14F46D209764495A /* Pods-ImageMachine-dummy.m in Sources */,
+				42633A45B60F000C378B78E2BBBE67DB /* TLAlbumPopView.swift in Sources */,
+				9BFA1A73AA55CAED87ED83024290D5B8 /* TLAssetCollection+Extension.swift in Sources */,
+				8E1C7AF5BE71B2BFA122A4F63685DD8D /* TLAssetsCollection.swift in Sources */,
+				E93F74933EBCB3B167397AE81DE74966 /* TLBundle.swift in Sources */,
+				87E3C95E6CD87B410430A34FF60C8E61 /* TLCollectionTableViewCell.swift in Sources */,
+				98487ADEBD6198B383215F0DC720EDB0 /* TLCollectionTableViewCell.xib in Sources */,
+				84BBB6A9AA33ABE021073FB995DBF92E /* TLPhotoCollectionViewCell.swift in Sources */,
+				1DCA9284C40FB6F75AD7637EC1C51DA0 /* TLPhotoCollectionViewCell.xib in Sources */,
+				2D9CACDF06AB22BB00F7339546C76253 /* TLPhotoLibrary.swift in Sources */,
+				5E2C66BA64EA1FE49A277804FDA8624A /* TLPhotoPicker-dummy.m in Sources */,
+				6EB1A8F3E4DC6D54770FB8F2ED746CAD /* TLPhotopickerDataSourcesProtocol.swift in Sources */,
+				40723D29BB372A58E2B48CEF06A7DC26 /* TLPhotosPickerViewController.swift in Sources */,
+				38A29333991D288A8B3523F3003A54BB /* TLPhotosPickerViewController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BCFA0FE510822EB4F974BE65E73720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C489C9683462F1EDEF5B10EF1BA8E7B4 /* QRCodeReader.swift in Sources */,
+				0D8BB3FEF311B7FFAA63C94DF7AEB2DA /* QRCodeReader.swift-dummy.m in Sources */,
+				56B6D9E58C3E6074CA5F1A4424F70F22 /* QRCodeReaderResult.swift in Sources */,
+				48B7A695251A25C8FD38E3823DE407B0 /* QRCodeReaderView.swift in Sources */,
+				BAD10DF55F685B07A6F1AD2BD0CD0465 /* QRCodeReaderViewContainer.swift in Sources */,
+				32EFBC3BFE736B41E19F4AFB7D7F99E6 /* QRCodeReaderViewController.swift in Sources */,
+				C09C5D62F54FD89993F8950BC236436E /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				AD81B0F5EEE6E5B9852A4CA72F6F7EA9 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				1956D92D841BCB00B20103EA690A3058 /* ReaderOverlayView.swift in Sources */,
+				A9065F902DF6642D01C953F82AC53C82 /* SwitchCameraButton.swift in Sources */,
+				2643DB3BED81EAA7C6159D3AE1378FE6 /* ToggleTorchButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +950,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		903B93EA4085881C6BA8F957B0983E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C71356C5FC87D476479F4718A7D86B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24E72D3C7F3D4875F402C9F653B07A1 /* Pods-ImageMachine-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AAF641DB16AA5DD7270A0360862067B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -666,48 +973,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAC6B94D6E0EFF630E78BC7196F5381F /* Sources */ = {
+		C5269A6AC1814121E12543548BF22D23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F843B891FB98D0E5FA77C2B92F992F1E /* QRCodeReader.swift in Sources */,
-				141601862E42D9ABAA05E1480A70E3EF /* QRCodeReader.swift-dummy.m in Sources */,
-				8206289898EC592A4C851E1B12C6B7FF /* QRCodeReaderResult.swift in Sources */,
-				168A829D1FF339D0166CC142E4A9B26D /* QRCodeReaderView.swift in Sources */,
-				BDFB492CCBAA11478346ED3248D3B694 /* QRCodeReaderViewContainer.swift in Sources */,
-				A2224DCF1E0324CA66A432CEEDA84727 /* QRCodeReaderViewController.swift in Sources */,
-				E917084BC18E561B9D3DC34DE0A8D5BF /* QRCodeReaderViewControllerBuilder.swift in Sources */,
-				C6B71E103753F065CFFDF403CAD5F03D /* QRCodeReaderViewControllerDelegate.swift in Sources */,
-				092D5121ED847C461DD9B3F7AD3BD77D /* ReaderOverlayView.swift in Sources */,
-				7B1B7C2224C81858A432238CD7220692 /* SwitchCameraButton.swift in Sources */,
-				133F3554E77338C44C6818D1B28544E8 /* ToggleTorchButton.swift in Sources */,
+				20BC9A6C30EB1B7B10605B1346652C79 /* IHKeyboardAvoiding-dummy.m in Sources */,
+				527BDA73CE6D8BE9819DF0CDD24F9CC7 /* KeyboardAvoiding.swift in Sources */,
+				14BB61D84B9774DF43693E6446DB1E52 /* KeyboardDismissingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED59A1B7CBB1DF1F421315A9085AF673 /* Sources */ = {
+		F65F62CB2803EF7765F37A6E5DE6A882 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B67EB81E6E95536E1919A43F418D65D4 /* TLAlbumPopView.swift in Sources */,
-				CDA26FF99C96C60ABE5ED8B0A74FA078 /* TLAssetCollection+Extension.swift in Sources */,
-				8000E3F860F6705A1AE02CCEB2FA7B11 /* TLAssetsCollection.swift in Sources */,
-				271A64AEDF6AA5D71B4311EBF3D40674 /* TLBundle.swift in Sources */,
-				A63FDBB30692B6434DAE9EB787BD5E68 /* TLCollectionTableViewCell.swift in Sources */,
-				8DDCFE11CD22A6BF103862492D353BBF /* TLCollectionTableViewCell.xib in Sources */,
-				B9F43B1A28E5DD71A038EB9C6278CEB1 /* TLPhotoCollectionViewCell.swift in Sources */,
-				845FD5775BBB98DF9DC76F37D227C138 /* TLPhotoCollectionViewCell.xib in Sources */,
-				1C7188C7536EAA4CFA58DAE957BB3038 /* TLPhotoLibrary.swift in Sources */,
-				440D6BAC004C53E47F263F4D33CCB8C9 /* TLPhotoPicker-dummy.m in Sources */,
-				0177A8344D96F415E570171ADC7DC886 /* TLPhotopickerDataSourcesProtocol.swift in Sources */,
-				222D62B1F95F3018C193DE71C80F9837 /* TLPhotosPickerViewController.swift in Sources */,
-				43EDB2F0A6FF0E3580ED0A80C0625E82 /* TLPhotosPickerViewController.xib in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F47B261EA506914B5B1B28CC26232989 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C7B333A27022D5DDBC96100144FD47A8 /* Bundle.swift in Sources */,
+				5C6C009BBD25CC176383A00E71AF8D99 /* DictionaryPreferences.swift in Sources */,
+				6525BF9F86FDD7EA9D3DE71B973E5A14 /* KeychainPreferences.swift in Sources */,
+				73A7D3D40F76C243EACE09EF8EBE36A1 /* NSCachePreferences.swift in Sources */,
+				5A677E17DEECB953FF81291A2E54DC94 /* NSCoder+Prephirences.swift in Sources */,
+				96C727B8FEE153173BEF78783F5DC307 /* NSHTTPCookieStorage+Prephirences.swift in Sources */,
+				0579E8C4C3EBA2C50E6195BC70AD03ED /* NSUbiquitousKeyValueStore+Prephirences.swift in Sources */,
+				341331774C6F0A339840DAC836BD9697 /* PatternPreferences.swift in Sources */,
+				F08F6FEEE93435A4BFF4A1CF9F66CFC2 /* Plist.swift in Sources */,
+				CCAB21C6A2C2E4569069C2D44C00810E /* Preference.swift in Sources */,
+				1EADDE232BC149213C9B6C1415AB021A /* PreferenceOperators.swift in Sources */,
+				E594FDAEA8FCE93587C442BA2AAAD7DE /* PreferencesController.swift in Sources */,
+				AA6477B47D39FF5F9E8C1ED37443D749 /* PreferencesOperators.swift in Sources */,
+				F43212AA920C942A16F54465B82C82BA /* PreferencesType.swift in Sources */,
+				06BA038704CBDA80F5E68C03F6742C86 /* PreferenceTransformation.swift in Sources */,
+				FDF990EFDE1B0E6191CDDBC2624BB7BF /* Prephirencable.swift in Sources */,
+				02A93315B734C576BD04956C0EB5B153 /* Prephirences-dummy.m in Sources */,
+				E1693E933B0C4FA31F3017C6C4FBCE57 /* Prephirences.swift in Sources */,
+				32EB1BD5BB395FD7FCDF4F4F63C769BD /* PrephirenceType+Codable.swift in Sources */,
+				E29617263C03540877D2F30373160CBC /* PropertyListKeys.swift in Sources */,
+				E3A1D5BEDBB88E42BDEAABA0AAB76B16 /* ReflectingPreferences.swift in Sources */,
+				E8577CABC6D88F319858B590463E7738 /* UserDefaults+Prephirences.swift in Sources */,
+				9FD6EFC2F6F73AB23F8A883F23DBA539 /* UserDefaultsKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,71 +1019,48 @@
 		10933DE9CFE6950A18427CB691003048 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ImageMachine";
-			target = 59102F9F29C57AA27DD4184335CFED77 /* Pods-ImageMachine */;
+			target = BFC2A133CA771F10B4F51D714FB811A6 /* Pods-ImageMachine */;
 			targetProxy = DA4A5695F39B62F6D4789086F746A9D2 /* PBXContainerItemProxy */;
 		};
-		27AB95F693CB7C7DA7F6F4EF98CBC7F3 /* PBXTargetDependency */ = {
+		53C83B8C49932465663F1DFBA9580FB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TLPhotoPicker;
-			target = 87DF7C4F70B44F50A2E3B362CADA8D0B /* TLPhotoPicker */;
-			targetProxy = 23FC81E017F665E8C8BA14ACAE5743C7 /* PBXContainerItemProxy */;
+			target = ED8F65E22D66027643F0543B7AC777DF /* TLPhotoPicker */;
+			targetProxy = A7D691069F734790498DA0760B5A6840 /* PBXContainerItemProxy */;
 		};
-		4D7A67CC161598DED6C8C842EAE74E20 /* PBXTargetDependency */ = {
+		8B15484C5EA175DC9C959EE10B82B312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeReader.swift;
+			target = 1A451EE955868C01D9E48F8333DE9C0A /* QRCodeReader.swift */;
+			targetProxy = 469F743662E0B6856503AD40803A0728 /* PBXContainerItemProxy */;
+		};
+		93F6E21821911DFE7349E04E9F0A5083 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TLPhotoPicker-TLPhotoPicker";
-			target = 42254A2CBFF110D5EBECD6DF3CEE6955 /* TLPhotoPicker-TLPhotoPicker */;
-			targetProxy = C82C3046A97851119601A39836DB4717 /* PBXContainerItemProxy */;
+			target = 85F288DB1243CEFA64EC7CC0BE629104 /* TLPhotoPicker-TLPhotoPicker */;
+			targetProxy = 683501F68F63F17A8247BC64C2713973 /* PBXContainerItemProxy */;
+		};
+		95C05EF6C752394CCC0B8345C49E6ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Prephirences;
+			target = 6BAD7E7EC46A0B6B845E301A98195DD8 /* Prephirences */;
+			targetProxy = 90F603A52CAE60C9D522AFA50064B005 /* PBXContainerItemProxy */;
+		};
+		D21DA8EBD3F91CDC5685A7C707126620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IHKeyboardAvoiding;
+			target = 7A2876118F66A5C51DE323A15F47B53D /* IHKeyboardAvoiding */;
+			targetProxy = 567279C264A69AB60CD9CB0E45425664 /* PBXContainerItemProxy */;
 		};
 		F30C8DCE24837DC276BE5AF3F1D98070 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ImageMachine";
-			target = 59102F9F29C57AA27DD4184335CFED77 /* Pods-ImageMachine */;
+			target = BFC2A133CA771F10B4F51D714FB811A6 /* Pods-ImageMachine */;
 			targetProxy = 0A8140470E1028583DA0BB03C8C84EEF /* PBXContainerItemProxy */;
-		};
-		FE93014DBF3666B23F47B5510473BEC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QRCodeReader.swift;
-			target = 9C403816E7655356B254490C0AC8D868 /* QRCodeReader.swift */;
-			targetProxy = BD32F81A73D4DF557D4ADD1D3DD3CA8B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11EB270674196BC50A09CB793C2485A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1629FE05F9BACA9BEF0E72677816124 /* QRCodeReader.swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
-				PRODUCT_MODULE_NAME = QRCodeReader;
-				PRODUCT_NAME = QRCodeReader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1260BEC03D1B879C6C63B180FF0613D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3479D18186BB34CF0137843170150FBB /* Pods-ImageMachineUITests.debug.xcconfig */;
@@ -814,6 +1093,79 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		219ACA0CBC056F751FF07C4F58E225B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF838E125871A7BDBB051A4E7678CEE6 /* Pods-ImageMachine.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2996771EA5DE772658C38B479EB3A394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57343DD6F588358F6909C679840A2BB /* Prephirences.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Prephirences/Prephirences-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Prephirences/Prephirences-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Prephirences/Prephirences.modulemap";
+				PRODUCT_MODULE_NAME = Prephirences;
+				PRODUCT_NAME = Prephirences;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -880,41 +1232,9 @@
 			};
 			name = Release;
 		};
-		349E587B95C2BC8988ED4704C75F8A8A /* Debug */ = {
+		5422844431CE16EF6030E36B28A40586 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD38BFD9FE0FD91EA7627C66E3AACA5E /* TLPhotoPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				PRODUCT_NAME = TLPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		3D76218CCD6D9F164785A95C4D5D72AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD38BFD9FE0FD91EA7627C66E3AACA5E /* TLPhotoPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				PRODUCT_NAME = TLPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		4755DD42844BF1C9A07124803BDDF511 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD38BFD9FE0FD91EA7627C66E3AACA5E /* TLPhotoPicker.xcconfig */;
+			baseConfigurationReference = 2C36F40665D48E2CD7333C3073057290 /* QRCodeReader.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -925,28 +1245,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
-				PRODUCT_MODULE_NAME = TLPhotoPicker;
-				PRODUCT_NAME = TLPhotoPicker;
+				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
+				PRODUCT_MODULE_NAME = QRCodeReader;
+				PRODUCT_NAME = QRCodeReader;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1012,9 +1331,9 @@
 			};
 			name = Debug;
 		};
-		6A16B9CBEFE42FD5560E640EF121A87A /* Debug */ = {
+		7152F423A3BEBD5DC237BF46C5CAAFB3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD38BFD9FE0FD91EA7627C66E3AACA5E /* TLPhotoPicker.xcconfig */;
+			baseConfigurationReference = AFAA1E6A3F84580A93A9EF014CF29ECC /* TLPhotoPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1042,12 +1361,13 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		8AAADE8821AD0AB011053005E8FA9D6D /* Release */ = {
+		8538F2DC2615A439E380B952571623F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62EF0B4C337A17A28C1EE687605A3A66 /* Pods-ImageMachine.release.xcconfig */;
 			buildSettings = {
@@ -1085,44 +1405,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8D029D8E4308F8C067FB812B24E0EBB6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF838E125871A7BDBB051A4E7678CEE6 /* Pods-ImageMachine.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		918EE0DFF46766A59AF72AD3C55385DA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1162,6 +1444,109 @@
 			};
 			name = Debug;
 		};
+		9EAC4518B7D8B9A1AB35AD85AE632D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57343DD6F588358F6909C679840A2BB /* Prephirences.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Prephirences/Prephirences-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Prephirences/Prephirences-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Prephirences/Prephirences.modulemap";
+				PRODUCT_MODULE_NAME = Prephirences;
+				PRODUCT_NAME = Prephirences;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A02EBCC9ADCE04C79CC1D9A7DA0A640A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAA1E6A3F84580A93A9EF014CF29ECC /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B6A3870E1DA81C976B7D0E5F49F83B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAA1E6A3F84580A93A9EF014CF29ECC /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CE09133FEE9270A15591FA0E57D89ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BC6E7E21CEA4E9F2CBE12BD15F63AA /* IHKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
+				PRODUCT_MODULE_NAME = IHKeyboardAvoiding;
+				PRODUCT_NAME = IHKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CFDD6C580DFA917EA8F5FB90A13B4CAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F25579EAD3540AB948D1489A411626E1 /* Pods-ImageMachineUITests.release.xcconfig */;
@@ -1194,6 +1579,42 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBF26F0524BF41DD27A12649D32A1428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C36F40665D48E2CD7333C3073057290 /* QRCodeReader.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
+				PRODUCT_MODULE_NAME = QRCodeReader;
+				PRODUCT_NAME = QRCodeReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1240,9 +1661,9 @@
 			};
 			name = Release;
 		};
-		F3BAD5040DF826119CA5008D46C17CC8 /* Release */ = {
+		F116323A56165715FD64A2ED589FCCFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1629FE05F9BACA9BEF0E72677816124 /* QRCodeReader.swift.xcconfig */;
+			baseConfigurationReference = AFAA1E6A3F84580A93A9EF014CF29ECC /* TLPhotoPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1253,8 +1674,43 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = TLPhotoPicker;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F218FA1D003D6EC2962CC72D30D4B863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BC6E7E21CEA4E9F2CBE12BD15F63AA /* IHKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1262,9 +1718,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/QRCodeReader.swift/QRCodeReader.swift.modulemap";
-				PRODUCT_MODULE_NAME = QRCodeReader;
-				PRODUCT_NAME = QRCodeReader;
+				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
+				PRODUCT_MODULE_NAME = IHKeyboardAvoiding;
+				PRODUCT_NAME = IHKeyboardAvoiding;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1279,6 +1735,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A815CCA77D1AF66CE7BA214B4A5419C /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5422844431CE16EF6030E36B28A40586 /* Debug */,
+				EBF26F0524BF41DD27A12649D32A1428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25506EC6916748270639D235A70FF742 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A3870E1DA81C976B7D0E5F49F83B27 /* Debug */,
+				A02EBCC9ADCE04C79CC1D9A7DA0A640A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1288,29 +1762,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		747AA5A95EA44B19DCD13AA20756FD78 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
+		7FE78863E8236824995B83F30DE053D9 /* Build configuration list for PBXNativeTarget "Prephirences" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11EB270674196BC50A09CB793C2485A7 /* Debug */,
-				F3BAD5040DF826119CA5008D46C17CC8 /* Release */,
+				2996771EA5DE772658C38B479EB3A394 /* Debug */,
+				9EAC4518B7D8B9A1AB35AD85AE632D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A94DAF35DC907720F58B9F6B842A13BF /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
+		A5FC77830B3102C5E1F28C7577E3199F /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				349E587B95C2BC8988ED4704C75F8A8A /* Debug */,
-				3D76218CCD6D9F164785A95C4D5D72AA /* Release */,
+				F116323A56165715FD64A2ED589FCCFB /* Debug */,
+				7152F423A3BEBD5DC237BF46C5CAAFB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B57C1CFC8654D899C527BA49AEF58463 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */ = {
+		B7B2FC9399AD42866729CED0A1FFE1A7 /* Build configuration list for PBXNativeTarget "Pods-ImageMachine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A16B9CBEFE42FD5560E640EF121A87A /* Debug */,
-				4755DD42844BF1C9A07124803BDDF511 /* Release */,
+				219ACA0CBC056F751FF07C4F58E225B3 /* Debug */,
+				8538F2DC2615A439E380B952571623F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1324,11 +1798,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8CDFCE8F97ED7951B3811796EAB82B8 /* Build configuration list for PBXNativeTarget "Pods-ImageMachine" */ = {
+		D40289C45A8C5204725AC4456EF9CC03 /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D029D8E4308F8C067FB812B24E0EBB6 /* Debug */,
-				8AAADE8821AD0AB011053005E8FA9D6D /* Release */,
+				CE09133FEE9270A15591FA0E57D89ECF /* Debug */,
+				F218FA1D003D6EC2962CC72D30D4B863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

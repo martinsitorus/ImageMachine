@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/QRCodeReader.swift" "${PODS_CONFIGURATION_BUILD_DIR}/TLPhotoPicker"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/IHKeyboardAvoiding" "${PODS_CONFIGURATION_BUILD_DIR}/Prephirences" "${PODS_CONFIGURATION_BUILD_DIR}/QRCodeReader.swift" "${PODS_CONFIGURATION_BUILD_DIR}/TLPhotoPicker"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/QRCodeReader.swift/QRCodeReader.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TLPhotoPicker/TLPhotoPicker.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Prephirences/Prephirences.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QRCodeReader.swift/QRCodeReader.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TLPhotoPicker/TLPhotoPicker.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "QRCodeReader" -framework "TLPhotoPicker"
+OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "IHKeyboardAvoiding" -framework "Prephirences" -framework "QRCodeReader" -framework "TLPhotoPicker" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

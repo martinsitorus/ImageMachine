@@ -11,6 +11,8 @@ import AVFoundation
 import AVKit
 import TLPhotoPicker
 import Photos
+import IHKeyboardAvoiding
+
 
 class MachineDetailViewController: ViewController {
     @IBOutlet weak var machinIdTextField: UITextField!
@@ -20,49 +22,24 @@ class MachineDetailViewController: ViewController {
     @IBOutlet weak var lastMaintenanceDateTextField: UITextField!
     @IBOutlet weak var imageThumbnailCollectionView: UICollectionView!
     @IBOutlet weak var machineImageButton: UIButton!
+    let datePicker = UIDatePicker()
     
     var status:String = ""
     var selectedAssets = [TLPHAsset]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         switch status {
         case "add":
             statusAddNewMachine()
         default:
             statusDefault()
         }
-        
-        // Do any additional setup after loading the view.
     }
     
-    func statusAddNewMachine() {
-        machinIdTextField.isEnabled = false
-        machinIdTextField.text = generateMachineId()
-        machineNameTextField.isEnabled = true
-        machineTypeTextField.isEnabled = true
-        machineQRCodeTextField.isEnabled = true
-        lastMaintenanceDateTextField.isEnabled = true
-        
-        let doneButton = UIBarButtonItem(title: "Done",
-                                         style: UIBarButtonItem.Style.plain ,
-                                         target: self, action: #selector(onDoneClicked))
-        
-        self.navigationItem.rightBarButtonItem = doneButton
-    }
-    
-    func statusDefault() {
-        machinIdTextField.isEnabled = false
-        machineNameTextField.isEnabled = false
-        machineTypeTextField.isEnabled = false
-        machineQRCodeTextField.isEnabled = false
-        lastMaintenanceDateTextField.isEnabled = false
-        
-        let editButton = UIBarButtonItem(title: "Edit",
-                                         style: UIBarButtonItem.Style.plain ,
-                                         target: self, action: #selector(onEditClicked))
-        
-        self.navigationItem.rightBarButtonItem = editButton
+    override func viewDidAppear(_ animated: Bool) {
+        configureViews()
     }
     
     func generateMachineId() -> String {
@@ -95,12 +72,96 @@ class MachineDetailViewController: ViewController {
         self.present(photosViewController, animated: true, completion: nil)
     }
     
+    func statusAddNewMachine() {
+        machinIdTextField.isEnabled = false
+        machinIdTextField.text = generateMachineId()
+        machineNameTextField.isEnabled = true
+        machineTypeTextField.isEnabled = true
+        machineQRCodeTextField.isEnabled = true
+        lastMaintenanceDateTextField.isEnabled = true
+        
+        let doneButton = UIBarButtonItem(title: "Done",
+                                         style: UIBarButtonItem.Style.plain ,
+                                         target: self, action: #selector(onDoneClicked))
+        
+        self.navigationItem.rightBarButtonItem = doneButton
+    }
+    
+    func statusDefault() {
+        machinIdTextField.isEnabled = false
+        machineNameTextField.isEnabled = false
+        machineTypeTextField.isEnabled = false
+        machineQRCodeTextField.isEnabled = false
+        lastMaintenanceDateTextField.isEnabled = false
+        
+        let editButton = UIBarButtonItem(title: "Edit",
+                                         style: UIBarButtonItem.Style.plain ,
+                                         target: self, action: #selector(onEditClicked))
+        
+        self.navigationItem.rightBarButtonItem = editButton
+    }
+    
     func showExceededMaximumAlert(vc: UIViewController) {
         let alert = UIAlertController(title: "", message: "Exceed Maximum Number Of Selection", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
         vc.present(alert, animated: true, completion: nil)
     }
+    
+    func configureViews() {
+        KeyboardAvoiding.avoidingView = self.machineNameTextField
+        KeyboardAvoiding.avoidingView = self.machineTypeTextField
+        KeyboardAvoiding.avoidingView = self.machineQRCodeTextField
+        
+        showDatePicker()
+    }
+
+    func showDatePicker(){
+        //Formate Date
+        datePicker.datePickerMode = .date
+        
+        //ToolBar
+        let toolbar = UIToolbar();
+        toolbar.sizeToFit()
+        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(donedatePicker));
+        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
+        let cancelButton = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(cancelDatePicker));
+        
+        toolbar.setItems([doneButton,spaceButton,cancelButton], animated: false)
+        
+        lastMaintenanceDateTextField.inputAccessoryView = toolbar
+        lastMaintenanceDateTextField.inputView = datePicker
+        
+    }
+    
+    @objc func donedatePicker(){
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd/MM/yyyy"
+        lastMaintenanceDateTextField.text = formatter.string(from: datePicker.date)
+        self.view.endEditing(true)
+    }
+    
+    @objc func cancelDatePicker(){
+        self.view.endEditing(true)
+    }
+    func checkTextField() {
+
+        if machineNameTextField.text?.isEmpty ?? true {
+            let alert = UIAlertController(title: "Alert", message: "Name Can't be empty", preferredStyle: .alert)
+            self.present(alert, animated: true, completion: nil)
+        } else if machineTypeTextField.text?.isEmpty ?? true {
+            let alert = UIAlertController(title: "Alert", message: "Type Can't be empty", preferredStyle: .alert)
+            self.present(alert, animated: true, completion: nil)
+        } else if machineQRCodeTextField.text?.isEmpty ?? true {
+            let alert = UIAlertController(title: "Alert", message: "QR Code Can't be empty", preferredStyle: .alert)
+            self.present(alert, animated: true, completion: nil)
+        } else if lastMaintenanceDateTextField.text?.isEmpty ?? true {
+            let alert = UIAlertController(title: "Alert", message: "Please Set last Maintenance Date", preferredStyle: .alert)
+            self.present(alert, animated: true, completion: nil)
+        }
+    }
 }
+
 /*
  // MARK: - Navigation
  
