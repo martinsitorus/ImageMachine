@@ -14,6 +14,20 @@ import Photos
 import IHKeyboardAvoiding
 
 
+class imageMachineCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var imageMachineImageView: UIImageView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        imageMachineImageView.image = nil
+        layer.masksToBounds = true
+    }
+    
+    override func prepareForReuse() {
+        imageMachineImageView.image = nil
+    }
+}
+
 class MachineDetailViewController: ViewController {
     @IBOutlet weak var machinIdTextField: UITextField!
     @IBOutlet weak var machineNameTextField: UITextField!
@@ -47,7 +61,28 @@ class MachineDetailViewController: ViewController {
     }
     
     @objc func onDoneClicked() {
-        print("Done")
+        checkTextField()
+        /*
+        let id = machinIdTextField.text
+        let name = machineNameTextField.text
+        let type = machineTypeTextField.text
+        let qr = machineQRCodeTextField.text
+        let date = lastMaintenanceDateTextField.text
+        */
+//        switch status {
+//        case "add":
+//            let newMachine = MachineModel.init(machineId: id!,
+//                                               machineName: name!,
+//                                               machineType: type!,
+//                                               qrCode: qr!,
+//                                               lastmaintenanceDate: date!,
+//                                               images: selectedAssets,
+//                                               thumbnail: thumbnailArray)
+//            DataManager.addImageMachine(withModel: newMachine)
+//            self.dismiss(animated: true, completion: nil)
+//        default:
+//            break
+//        }
     }
     
     @objc func onEditClicked() {
@@ -114,7 +149,7 @@ class MachineDetailViewController: ViewController {
         
         showDatePicker()
     }
-
+    
     func showDatePicker(){
         //Formate Date
         datePicker.datePickerMode = .date
@@ -145,18 +180,30 @@ class MachineDetailViewController: ViewController {
         self.view.endEditing(true)
     }
     func checkTextField() {
-
+        
         if machineNameTextField.text?.isEmpty ?? true {
             let alert = UIAlertController(title: "Alert", message: "Name Can't be empty", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+                alert.dismiss(animated: true, completion: nil)
+            }))
             self.present(alert, animated: true, completion: nil)
         } else if machineTypeTextField.text?.isEmpty ?? true {
             let alert = UIAlertController(title: "Alert", message: "Type Can't be empty", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+                alert.dismiss(animated: true, completion: nil)
+            }))
             self.present(alert, animated: true, completion: nil)
         } else if machineQRCodeTextField.text?.isEmpty ?? true {
             let alert = UIAlertController(title: "Alert", message: "QR Code Can't be empty", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+                alert.dismiss(animated: true, completion: nil)
+            }))
             self.present(alert, animated: true, completion: nil)
         } else if lastMaintenanceDateTextField.text?.isEmpty ?? true {
             let alert = UIAlertController(title: "Alert", message: "Please Set last Maintenance Date", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+                alert.dismiss(animated: true, completion: nil)
+            }))
             self.present(alert, animated: true, completion: nil)
         }
     }
@@ -178,27 +225,17 @@ extension MachineDetailViewController: UICollectionViewDataSource, UICollectionV
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageCollectionCell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageCollectionCell", for: indexPath) as! imageMachineCollectionViewCell
         let phImage = selectedAssets[indexPath.row]
-        let thumbImage = UIImageView(frame: cell.contentView.frame)
-        requestImage(for: phImage.phAsset!, targetSize: CGSize(width: 30, height: 30), contentMode: PHImageContentMode.aspectFit) { (image) in
-            thumbImage.image = image
-        }
-        cell.contentView.addSubview(thumbImage)
-        
+        cell.imageMachineImageView.image = phImage.fullResolutionImage!
         return cell
     }
     
-    func requestImage(for asset: PHAsset,
-                      targetSize: CGSize,
-                      contentMode: PHImageContentMode,
-                      completionHandler: @escaping (UIImage?) -> ()) {
-        let imageManager = PHImageManager()
-        imageManager.requestImage(for: asset,
-                                  targetSize: targetSize,
-                                  contentMode: contentMode,
-                                  options: nil) { (image, _) in
-                                    completionHandler(image)
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: IndexPath) -> CGSize {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return CGSize(width: UIScreen.main.bounds.size.width / 2 - 5, height: 300)
+        } else {
+            return CGSize(width: UIScreen.main.bounds.size.width / 2 - 5, height: 200)
         }
     }
 }

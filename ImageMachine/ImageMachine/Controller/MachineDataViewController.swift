@@ -10,18 +10,25 @@ import UIKit
 
 class MachineDataViewController: ViewController {
 
+    @IBOutlet weak var machineTable: UITableView!
     var machineArray:[MachineModel] = []
     var status:String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureViews()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        machineTable.reloadData()
+    }
+    func configureViews() {
         let addButton = UIBarButtonItem(title: "Add",
                                         style: UIBarButtonItem.Style.plain ,
                                         target: self, action: #selector(onAddClicked))
         
         self.navigationItem.rightBarButtonItem = addButton
-        
-        // Do any additional setup after loading the view.
+        machineTable.register(MachineListTableViewCell.self, forCellReuseIdentifier: "machineListCell")
     }
     
     @objc func onAddClicked() {
@@ -50,14 +57,17 @@ extension MachineDataViewController: UITableViewDelegate, UITableViewDataSource 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "") as! UITableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "machineListCell") as! MachineListTableViewCell
         let machine = machineArray[indexPath.row]
-        
-        cell.textLabel?.text = machine.name
+        cell.machineName.text = machine.name
+        cell.machineType.text = machine.type
         
         return cell
         
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 60.0
+    }
     
 }

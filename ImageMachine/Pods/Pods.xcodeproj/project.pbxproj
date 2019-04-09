@@ -7,60 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0109B7070DC919DCF7FFCF9B4C51D55D /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F72640AE720D61AB9A20C1CC1A3779A /* TLBundle.swift */; };
-		092FDDC52A07BF27E08E412B6D003463 /* TLPhotosPickerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD0F24D561827C065978B923CAF2 /* TLPhotosPickerViewController.xib */; };
-		10E506D91FF8F0D8DC957B261365F467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
-		14BB61D84B9774DF43693E6446DB1E52 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9410864265BD9EA04283C80F6C8A25CB /* KeyboardDismissingView.swift */; };
-		14CFD390B59908E29737DE28EB7CDEE4 /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E07B2C3BB4BBCC9E1B6D585FCB313C5 /* TLPhotopickerDataSourcesProtocol.swift */; };
-		1677184D6A4653DD331B88009863B3A5 /* StorageManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41CA622AEA785B3B8182703117089A /* StorageManager-dummy.m */; };
-		1A8C2B790F12EAA63B912CF72B55C37C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
-		20BA0EF98BBB5A5408A0BAE0A6081598 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680B91935E19DC5B2669D0AB8AB9E606 /* QRCodeReaderViewControllerBuilder.swift */; };
-		20BC9A6C30EB1B7B10605B1346652C79 /* IHKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 891B93C7F1236244ADEB32E00382D9BD /* IHKeyboardAvoiding-dummy.m */; };
-		2166CEEA0CD72A71C17B2106E60E23CF /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 510E35AD15D886CE9417129C8EEF1B7B /* TLPhotoPicker-dummy.m */; };
-		21814B9B5B6EA001E5DE8A8EC4E1529F /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF3C423E22B4D12746F330D8E39FB47C /* TLPhotoPicker.bundle */; };
+		0A3FB9DAF64BBC4F0554443F81895017 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158C7F2ECEC038173ED0ECF7ED6AAFE /* SwitchCameraButton.swift */; };
+		14BB61D84B9774DF43693E6446DB1E52 /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8973D1D051A31E77481C95DD2C31F2B /* KeyboardDismissingView.swift */; };
+		1FE22426B49F93CECB6E338D97209D49 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9DC6712FAC1CC5CC76A6E305F3E21F /* QRCodeReaderViewControllerDelegate.swift */; };
+		20BC9A6C30EB1B7B10605B1346652C79 /* IHKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 169B48F0BE74AFDB32514D5B38D639D8 /* IHKeyboardAvoiding-dummy.m */; };
+		25717152F71B4DA625CC9356ADBD22D2 /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53147E8F178DB5D72A36E4DA108F6C /* TLPhotoCollectionViewCell.swift */; };
 		25EC983B5D31C9DE1886C00C89FA013E /* Pods-ImageMachineUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D76BAFE30EC95D952E37ACFC9958D58D /* Pods-ImageMachineUITests-dummy.m */; };
-		2A4BD2207B12D6A24F286E8CD29C7280 /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D2D3B5EF7CA2CF91603CC9E4F7E5D9 /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C605842D0BB9759985E2D11ACB6F132 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC56CC037BE96226E9ED02BA47A4AB /* TLPhotosPickerViewController.swift */; };
+		263CAAE0768E216ED64DFED33DDE4116 /* QRCodeReader.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85BEB842BC80B9C40E0CCB527266593A /* QRCodeReader.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3127BEE5D11F842B32B2CC2BCA42D15F /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF881D0174C543910035C1B8B0813AEC /* TLPhotoPickerController.bundle */; };
 		3161DCEB7796883969DB5A64540EE619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
-		352DAA60036B9D525A6E30F030857EE6 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408D9CA1023D5A6696BE6033AAB19EF5 /* QRCodeReaderViewControllerDelegate.swift */; };
-		35A7B95705AC379E0DD0F840BA5D45B3 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9706150CB68B8FE4D82FC6871382D09C /* TLCollectionTableViewCell.xib */; };
-		38420E9EE650C1A1210B264493F42621 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C011026CE3924351BF5E4F9B40AC59 /* AVFoundation.framework */; };
-		43001397F923A2174FD4072F831F1706 /* Pods-ImageMachine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A136E5D3DAAEB0FC8D873CCF547871AD /* Pods-ImageMachine-dummy.m */; };
-		436B7405E9C8AC5EC91C3C74C60FFE05 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B855780600BD50730236F648B41F2 /* QRCodeReader.swift */; };
-		46073D1B4496AA3A3FE650754041DB26 /* Pods-ImageMachine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C96FDA2AF3448BC8E6C466E4E5A2C662 /* Pods-ImageMachine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E27F4E6A9B7D6F2F64B08174E924971 /* TLCollectionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9706150CB68B8FE4D82FC6871382D09C /* TLCollectionTableViewCell.xib */; };
+		320ECEB7AB0D5BB47EA7DB613ECA0312 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7A4CF62A1F9C67FAD7E2E99AAD2FE /* QRCodeReader.swift */; };
+		34E34F37E548E8E0B7A54E84FCCE9A46 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E512CA693AE7D729B3BAAB7BCB06E51F /* TLCollectionTableViewCell.swift */; };
+		397E769354C2E70F918417162589C306 /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C2F18CFDD9D6FD8454ACE4158FCFCE /* TLPhotoCollectionViewCell.xib */; };
+		398FEFBA0E1B135184F14800360D28DC /* AFDateHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 365C3FE21A5A4EA24F6B72BD84C52090 /* AFDateHelper-dummy.m */; };
+		3AC23BE0E31949CA7CA68C5765D063E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
+		4749449C57CCE62B944F11B9581B1D8F /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2796E65795E58256632E5C868FA5F0 /* DateHelper.swift */; };
+		482FE10016BEFFF36B0C79F0E12EE2FB /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614093E14E15D2A6878BFD5BD3562EE3 /* QRCodeReaderViewContainer.swift */; };
+		4C00555B1EAB84F52081EB113DF9E62E /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 348ADD53B1C676401CCDF63D7DED4759 /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5A4A02678DF5F1BB6BDF033166A2E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
 		4ED3151DF9A6E2F147D3428EBB8D1E4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
-		527BDA73CE6D8BE9819DF0CDD24F9CC7 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7457CFA5ADEADD0B47678283D9F8B37F /* KeyboardAvoiding.swift */; };
-		58DC9E43894423FF017A7025127CDE31 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7322AEB6F6580435E291BA1471C5ECDD /* ToggleTorchButton.swift */; };
-		5D38416FB04D2AD984B6C19ADFB13B1C /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470E1A5F131EFF71018C29C7102B9DB9 /* QRCodeReaderResult.swift */; };
-		5F305175E476B14FCB4057FE547FA3BA /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B023057769E4A4C0EB32C13985FAF8 /* TLPhotoCollectionViewCell.swift */; };
-		630B7EB609A6DD8A7EB0CA178A1CB5E2 /* TLPhotoCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = B396D85DA516F2D8AF595529405B68A7 /* TLPhotoCollectionViewCell.xib */; };
-		8194CD061DCA922C606713C3F6561132 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735FDF7E0A1ED29FE4CF2A75BB588E86 /* QRCodeReaderViewController.swift */; };
-		82B3A02E7C6B3DCFC5EAFB25304D2361 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C334DD5337C5B956D48B3DE67DAC8 /* SwitchCameraButton.swift */; };
-		837628CEA1EA3B92B319A0E927704476 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51FEB60F97E2ACEAA26A6BA6C0041C0 /* QRCodeReaderView.swift */; };
-		9E06A12CBB09ED26F9688F8F73791746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
-		A7F6D21685A6912702231AFB200EC89C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
-		A81CE50914BF30F36D55DCCAFC2337CC /* IHKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD0BBA1179DDBC5519408F7B8228EB5 /* IHKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527BDA73CE6D8BE9819DF0CDD24F9CC7 /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3511A6BD188CAA1B58DA3B42BD45CD5 /* KeyboardAvoiding.swift */; };
+		53B8508F3D27A292D6D26349A9C15824 /* TLCollectionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 19B9A16856054AE3B06BA382B444329C /* TLCollectionTableViewCell.xib */; };
+		5DE7C36054F777881DECAAD315909BBD /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2042FCBB609BF6994C6F2D2C1F6031A /* TLPhotoLibrary.swift */; };
+		7231845658A33388E45343EB5177F27E /* AFDateHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 755400731EB89DDBDC623FABC3799655 /* AFDateHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E8678D92EA9096BCCF7C6804D79E027 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5A78D1E15779B3B44E18D037C6A3A5 /* TLPhotosPickerViewController.swift */; };
+		8227F2DD0D073CC3C7BBD31A2134CBB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
+		8CCAE30A3EE828A91DF174D346D8F262 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C011026CE3924351BF5E4F9B40AC59 /* AVFoundation.framework */; };
+		9BD076C81ADA0B3F60D632BF66BCA7E3 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6145B4A7D5436642AE101DFDD1C08DE /* ReaderOverlayView.swift */; };
+		9C4F889EC160B3F469148F11BC05D197 /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F16BA1FA7DE063A2478AFA5A50C12043 /* TLPhotoPicker.bundle */; };
+		9CA7E0FAF319C483B7F2FD18556EF3B1 /* Pods-ImageMachine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C96FDA2AF3448BC8E6C466E4E5A2C662 /* Pods-ImageMachine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3CBEDF91673430EDBE9395490AE08CB /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDEF4286CAF6C2088E80FB04EFA034 /* TLAssetCollection+Extension.swift */; };
+		A5813DD217B104EAD84CEB1CCE9A7F91 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D0E9FAB45A67AAE116B0B212E2326 /* QRCodeReaderView.swift */; };
+		A81CE50914BF30F36D55DCCAFC2337CC /* IHKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACA87D37F78F0E65B63D933523E36E6 /* IHKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC68303A9A165B9B52D0725EE0503E59 /* Pods-ImageMachineTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B13DE2A807D6C4B6FA9DB95B6E5D17 /* Pods-ImageMachineTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFF038480960039BDBC07D5D6D41DDF2 /* SMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9718E2539E4125E380B5FF57FFF52D6 /* SMError.swift */; };
-		B72BCABB35AC6E86DC6927E6001E5A6C /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B396D85DA516F2D8AF595529405B68A7 /* TLPhotoCollectionViewCell.xib */; };
+		B728708EA0BEA3CA16E1605106C163CD /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1413DAC7B2778BE6AE5CFCC2B8A5A /* TLBundle.swift */; };
+		B8BF49E56DC358A33E0F4FBAECB58136 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B06C13E0DFEFE824ABF8A03AA29A6E3 /* ToggleTorchButton.swift */; };
+		BA9408F556E3AE12A97517CBB579529F /* TLPhotoCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 35C2F18CFDD9D6FD8454ACE4158FCFCE /* TLPhotoCollectionViewCell.xib */; };
 		BB3F0CA7EBF206076564F8FC77B55EE8 /* Pods-ImageMachineTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C8552B0A319F717E50F4A404B3EDA5 /* Pods-ImageMachineTests-dummy.m */; };
-		BD8E705F445085AC15140E21ECCCB591 /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B439374B27ABF204047C63E28968A648 /* QRCodeReader.swift-dummy.m */; };
-		BDFE00006AD5BAB5743DE2780B510336 /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2801CD0F24D561827C065978B923CAF2 /* TLPhotosPickerViewController.xib */; };
-		BE75E3B6EA12283A424A297268F62078 /* StorageManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6B0197E0E026A4CF46C18D6DB6903C /* StorageManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF6165678FFA58F2A6564F550367E1B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
-		D84A7EC78BCEB735828346FF348976B3 /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB4BD265DF7BBAA088131138A76F04 /* TLPhotoLibrary.swift */; };
-		D8EF221B091415AFC965D26E33442BFF /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0353B4CBDC6EE95D0978003EB2CEB51 /* ReaderOverlayView.swift */; };
-		E7C9196B01D06150AB295E744324FECC /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 401CA01F11DA72B36BEF10909A1B077B /* TLPhotoPickerController.bundle */; };
-		E9C112213F2520BDFD142C887AD1A108 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003EB362EFA2FD6A8AB362269EB6F6 /* TLCollectionTableViewCell.swift */; };
-		E9E12815F38B274092338A6EC0B6391C /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A4F10F9111561ACD13132D04DE8604 /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAB28AF289FE2E82249549FC546A246B /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065DBAA50B362122A7FC429476186D2 /* TLAlbumPopView.swift */; };
+		C323A203288194DFCFAE3F956586641F /* Pods-ImageMachine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A136E5D3DAAEB0FC8D873CCF547871AD /* Pods-ImageMachine-dummy.m */; };
+		CA006EF9D9DA16DCDA522BB3E4A3EAEE /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3A1B17F3BFB4D93B6BB2BC193103F /* TLAlbumPopView.swift */; };
+		DE4FEB17C2F2BCE053110A12000047DA /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E3E655656EF00E1F0CE7E51E86E33E /* QRCodeReaderViewController.swift */; };
+		E194B74BA7050DE71098C0F19FD4035A /* TLPhotosPickerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = FAF1B2C668A28B36393D14FE3C8DB396 /* TLPhotosPickerViewController.xib */; };
+		E5733FE2CC3FA7A71A08932C68E779C6 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812617715A0A9D1B1CF1D1622C1105DE /* QRCodeReaderViewControllerBuilder.swift */; };
+		E6351AD180DCD7914A395580E0119862 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B9A16856054AE3B06BA382B444329C /* TLCollectionTableViewCell.xib */; };
+		E65D07038236DA5459A22C98BD18CB7C /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2B2073221CE3BADAC0D3640520F2C5 /* TLPhotopickerDataSourcesProtocol.swift */; };
+		E7394C1C9A3DC52720883106C92D139F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */; };
+		E78B9E52FA4BF42334BABC9AAE05917B /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F99973C46D1910D834E4AD1510FF6E8 /* TLPhotoPicker-dummy.m */; };
 		ECF56E19D4F0E2735636297AF654D22D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79239136D2FCC866A0EA2B8D1D18C9F0 /* UIKit.framework */; };
-		EFC672270DEF23BA912DBD3EB9003008 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895525AAEDB009F0ED65A78DB97284E6 /* StorageManager.swift */; };
+		EEF400A2BF62F1EAF40EB1625C8F265C /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF1B2C668A28B36393D14FE3C8DB396 /* TLPhotosPickerViewController.xib */; };
 		F622E217320A082365D7BEAD9B08334D /* Pods-ImageMachineUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E013924EF570CF761A17B207275909 /* Pods-ImageMachineUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB2D0DBC28F6378C227C4CDDFB61B27F /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC4B23E5707132BD2AE49BFAD6FB07C /* QRCodeReaderViewContainer.swift */; };
-		FD75BB05AF725A46DE14689AE706B955 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C38A9D196FAE514EEE4F77E7B35BBE2 /* TLAssetCollection+Extension.swift */; };
-		FF866737032BE0A91446DE9195382066 /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E302673BC7688BF6F7C432BA8BA42B03 /* TLAssetsCollection.swift */; };
+		FA9D04BAE598409BD975BC606DB160A0 /* QRCodeReader.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7917B930B91FEDF4DB3FA3C3FE8623F7 /* QRCodeReader.swift-dummy.m */; };
+		FD7A163CA9FB6B8C860549D4AE96119F /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7FED84A05F6ECCF79D0497E7A078F1 /* TLAssetsCollection.swift */; };
+		FE568DC6EB9997B566260BC357854B56 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11487EE0D4BFE2D2664B15F7459BA83A /* QRCodeReaderResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,163 +67,145 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6545A8DC15A7EAC1467CFA039405DE9A;
+			remoteGlobalIDString = 7483275D1712137CFBF0DC795B4092E7;
 			remoteInfo = "Pods-ImageMachine";
 		};
-		0E24F3E21B7BF935DBB1C38F0DDE2BAF /* PBXContainerItemProxy */ = {
+		2E1B2A44D410182F5296ED4BE4D91FC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 257A3A63DF55BE06AA01738062D81116;
-			remoteInfo = TLPhotoPicker;
-		};
-		28B2E51721C61E32CD09317F274C687C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D25CF6B5A84411D4CB6260E3A55EABF0;
-			remoteInfo = QRCodeReader.swift;
-		};
-		DA4A5695F39B62F6D4789086F746A9D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6545A8DC15A7EAC1467CFA039405DE9A;
-			remoteInfo = "Pods-ImageMachine";
-		};
-		DD5BF24F05AEADC014FA5646A9E09CA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 507CC486B8478D31EF3173CC81458157;
+			remoteGlobalIDString = 1AADF3134F47F2019D05F3809455C410;
 			remoteInfo = "TLPhotoPicker-TLPhotoPicker";
 		};
-		E9811ED9A10DA7DD768D2FCEC8B85C7B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8466E620884D28421EADC7029A6444C0;
-			remoteInfo = StorageManager;
-		};
-		F04166211B745951D30FF1CBE552EE4B /* PBXContainerItemProxy */ = {
+		C55F1E60D90DA324267DF24C1E800E20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7A2876118F66A5C51DE323A15F47B53D;
 			remoteInfo = IHKeyboardAvoiding;
 		};
+		D0A70D8A152F106774DB0E5321C3ABD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10674A0B9260ABE2FA5FAD3E24AE448B;
+			remoteInfo = TLPhotoPicker;
+		};
+		DA4A5695F39B62F6D4789086F746A9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7483275D1712137CFBF0DC795B4092E7;
+			remoteInfo = "Pods-ImageMachine";
+		};
+		EAB3DE2EC795C51997514E7715A3E127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDD50F09AE78D0574DDCFC7A228C1F2;
+			remoteInfo = AFDateHelper;
+		};
+		F085D8EA47113ADB97514201436B2968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97DAC47CE534089D2D443C689547C015;
+			remoteInfo = QRCodeReader.swift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04EC56CC037BE96226E9ED02BA47A4AB /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
+		041C51B7A64999B4132CA45872DB54EB /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
+		04403E84CC1AC2890E65ED774BB61C1E /* AFDateHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFDateHelper.modulemap; sourceTree = "<group>"; };
+		055C61E253867A348626F2447BBA299A /* Pods_ImageMachineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachineUITests.framework; path = "Pods-ImageMachineUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		064358921A1D4DC751C9CC26BE577F17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0A4C334DD5337C5B956D48B3DE67DAC8 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
-		0B445B58C8EFE25A22787C4C59441938 /* IHKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IHKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		0AE5FBB588F6558981AC9881F129A19E /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		0B06C13E0DFEFE824ABF8A03AA29A6E3 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
+		0B64C473E2014D559E4E2F5F9459223B /* AFDateHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFDateHelper.xcconfig; sourceTree = "<group>"; };
+		0F99973C46D1910D834E4AD1510FF6E8 /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
+		11487EE0D4BFE2D2664B15F7459BA83A /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
 		121F5898A86492433597B62FCB142D66 /* Pods-ImageMachine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachine-Info.plist"; sourceTree = "<group>"; };
 		137A1B658CB0927E1A8C16532E747DD8 /* Pods-ImageMachineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachineTests.release.xcconfig"; sourceTree = "<group>"; };
-		17310A5D2A390BBEEE6C0A41EA9F9EFD /* Pods_ImageMachineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachineUITests.framework; path = "Pods-ImageMachineUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C7AD52990D7DF36E2E0665B7689F515 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
-		21AF18DD23C98F56027BE3144F7960DB /* IHKeyboardAvoiding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IHKeyboardAvoiding-Info.plist"; sourceTree = "<group>"; };
+		13D1FD58A58F65F78993C3D84A092D13 /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		169B48F0BE74AFDB32514D5B38D639D8 /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		19B9A16856054AE3B06BA382B444329C /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		2158C7F2ECEC038173ED0ECF7ED6AAFE /* SwitchCameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = Sources/SwitchCameraButton.swift; sourceTree = "<group>"; };
 		26A0439C044C3951C09C756AC82222E6 /* Pods-ImageMachine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageMachine-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2801CD0F24D561827C065978B923CAF2 /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
 		2B2F89C58E23BE03033253DBE9D57757 /* Pods-ImageMachine-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageMachine-frameworks.sh"; sourceTree = "<group>"; };
-		2EC4B23E5707132BD2AE49BFAD6FB07C /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
-		30EB4BD265DF7BBAA088131138A76F04 /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
+		2D5E321DE8A97B85C3222364CADCB9DB /* IHKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IHKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		3294EE5140509122E9B5D75E6654A6BE /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
 		3479D18186BB34CF0137843170150FBB /* Pods-ImageMachineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		348ADD53B1C676401CCDF63D7DED4759 /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
+		35C2F18CFDD9D6FD8454ACE4158FCFCE /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		365C3FE21A5A4EA24F6B72BD84C52090 /* AFDateHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFDateHelper-dummy.m"; sourceTree = "<group>"; };
 		368CF07E6F0E9065DE8F3D583F44B125 /* Pods-ImageMachine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachine-acknowledgements.plist"; sourceTree = "<group>"; };
-		369A054AF95755AD40D921B384DBB6F2 /* IHKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
 		38C011026CE3924351BF5E4F9B40AC59 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		38E98FD2101CC0D68C8B3BDD2A9671C4 /* StorageManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StorageManager.modulemap; sourceTree = "<group>"; };
-		3C38A9D196FAE514EEE4F77E7B35BBE2 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "TLPhotoPicker/Classes/TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
-		3E07B2C3BB4BBCC9E1B6D585FCB313C5 /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotopickerDataSourcesProtocol.swift; path = TLPhotoPicker/Classes/TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
-		401CA01F11DA72B36BEF10909A1B077B /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
-		408D9CA1023D5A6696BE6033AAB19EF5 /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
-		42C642ED521EC73B3D35B6F855E9A321 /* StorageManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StorageManager.framework; path = StorageManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		470E1A5F131EFF71018C29C7102B9DB9 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = Sources/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		4A5D0E9FAB45A67AAE116B0B212E2326 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
 		4C4344DC61EA96238701FBDEC8F088A7 /* Pods-ImageMachineUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachineUITests-Info.plist"; sourceTree = "<group>"; };
-		510E35AD15D886CE9417129C8EEF1B7B /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
-		56F850738F2491F143842FAAFA77C4E5 /* StorageManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StorageManager-prefix.pch"; sourceTree = "<group>"; };
-		586BE4D12ED2B5FBD08D5F3463D0C097 /* TLPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.xcconfig; sourceTree = "<group>"; };
-		5AD0BBA1179DDBC5519408F7B8228EB5 /* IHKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
+		5FD3A1B17F3BFB4D93B6BB2BC193103F /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
+		614093E14E15D2A6878BFD5BD3562EE3 /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = Sources/QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		617543DA469869057345805D38471AAB /* AFDateHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFDateHelper-prefix.pch"; sourceTree = "<group>"; };
 		62EF0B4C337A17A28C1EE687605A3A66 /* Pods-ImageMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachine.release.xcconfig"; sourceTree = "<group>"; };
-		665B25A7FF6749198C23AC132E2ED1C5 /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
-		680B91935E19DC5B2669D0AB8AB9E606 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
-		68B1E005D1F7E2F41EB558B35B9C842B /* Pods_ImageMachineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachineTests.framework; path = "Pods-ImageMachineTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BC6FA1D960BA0302B9DD557B572266 /* AFDateHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFDateHelper-Info.plist"; sourceTree = "<group>"; };
 		6B09D71EF0601CAC179F4D37B4080924 /* Pods-ImageMachineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachineTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7322AEB6F6580435E291BA1471C5ECDD /* ToggleTorchButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = Sources/ToggleTorchButton.swift; sourceTree = "<group>"; };
-		735FDF7E0A1ED29FE4CF2A75BB588E86 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
-		7457CFA5ADEADD0B47678283D9F8B37F /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = Sources/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		6F2796E65795E58256632E5C868FA5F0 /* DateHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateHelper.swift; path = Sources/DateHelper.swift; sourceTree = "<group>"; };
+		755400731EB89DDBDC623FABC3799655 /* AFDateHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFDateHelper-umbrella.h"; sourceTree = "<group>"; };
+		7917B930B91FEDF4DB3FA3C3FE8623F7 /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
 		79239136D2FCC866A0EA2B8D1D18C9F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7ACA87D37F78F0E65B63D933523E36E6 /* IHKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
 		7BDC002CA3F92607BD22905FF7D92E2D /* Pods-ImageMachineTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachineTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7F72640AE720D61AB9A20C1CC1A3779A /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
-		84544259AF3EBAEDF946F8DA8BF06976 /* StorageManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StorageManager-Info.plist"; sourceTree = "<group>"; };
-		891B93C7F1236244ADEB32E00382D9BD /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
-		895525AAEDB009F0ED65A78DB97284E6 /* StorageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageManager.swift; path = Sources/StorageManager.swift; sourceTree = "<group>"; };
-		8D9257EBFB3C19748500015C06CAD992 /* IHKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IHKeyboardAvoiding.framework; path = IHKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90B023057769E4A4C0EB32C13985FAF8 /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C5A78D1E15779B3B44E18D037C6A3A5 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
+		812617715A0A9D1B1CF1D1622C1105DE /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = Sources/QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		85BEB842BC80B9C40E0CCB527266593A /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
+		8831CDD6D1912DB5D4F09375B96DDD6E /* Pods_ImageMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachine.framework; path = "Pods-ImageMachine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B13DE2A807D6C4B6FA9DB95B6E5D17 /* Pods-ImageMachineTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageMachineTests-umbrella.h"; sourceTree = "<group>"; };
 		92B2CDD99B1BBE1614598C05F48AF769 /* Pods-ImageMachineTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageMachineTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93003EB362EFA2FD6A8AB362269EB6F6 /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
-		9410864265BD9EA04283C80F6C8A25CB /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = Sources/KeyboardDismissingView.swift; sourceTree = "<group>"; };
-		949DE8EA5857D4AAF8819DFDE7C2E46A /* StorageManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StorageManager.xcconfig; sourceTree = "<group>"; };
-		9706150CB68B8FE4D82FC6871382D09C /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		97F9A60FCBEA7FC3817627B746B291B4 /* AFDateHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFDateHelper.framework; path = AFDateHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A136E5D3DAAEB0FC8D873CCF547871AD /* Pods-ImageMachine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageMachine-dummy.m"; sourceTree = "<group>"; };
+		A3511A6BD188CAA1B58DA3B42BD45CD5 /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = Sources/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		A3E3E655656EF00E1F0CE7E51E86E33E /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = Sources/QRCodeReaderViewController.swift; sourceTree = "<group>"; };
 		A4E013924EF570CF761A17B207275909 /* Pods-ImageMachineUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageMachineUITests-umbrella.h"; sourceTree = "<group>"; };
-		AA6B0197E0E026A4CF46C18D6DB6903C /* StorageManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StorageManager-umbrella.h"; sourceTree = "<group>"; };
-		AE41CA622AEA785B3B8182703117089A /* StorageManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StorageManager-dummy.m"; sourceTree = "<group>"; };
-		AF3C423E22B4D12746F330D8E39FB47C /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TLPhotoPicker.bundle; path = "TLPhotoPicker-TLPhotoPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B065DBAA50B362122A7FC429476186D2 /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
-		B1BAB68642E2A074FCBBE8ACDFD3851F /* IHKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
-		B2D2D3B5EF7CA2CF91603CC9E4F7E5D9 /* QRCodeReader.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-umbrella.h"; sourceTree = "<group>"; };
-		B396D85DA516F2D8AF595529405B68A7 /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
-		B439374B27ABF204047C63E28968A648 /* QRCodeReader.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeReader.swift-dummy.m"; sourceTree = "<group>"; };
-		B4E88E0CBF6178F84FB342E01FC7EE24 /* Pods_ImageMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachine.framework; path = "Pods-ImageMachine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6145B4A7D5436642AE101DFDD1C08DE /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		AB4815FCFE48816B5048EB620CC36E97 /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
+		AD7FED84A05F6ECCF79D0497E7A078F1 /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
+		B2FDEF4286CAF6C2088E80FB04EFA034 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "TLPhotoPicker/Classes/TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
+		B706EAA015E292743357235470758225 /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
 		B738CA07BBB9AE590503F95305D28AC1 /* Pods-ImageMachineTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageMachineTests.modulemap"; sourceTree = "<group>"; };
-		B9A4F10F9111561ACD13132D04DE8604 /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
-		B9D5DB9FD050C51C1EE4CB0C2A7E7A01 /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLPhotoPicker.framework; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCC74529C41B5614A5988ACE3802C6FF /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
+		B82A6972A288CCC46AF48F30631A9A9D /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLPhotoPicker.framework; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF838E125871A7BDBB051A4E7678CEE6 /* Pods-ImageMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachine.debug.xcconfig"; sourceTree = "<group>"; };
+		BF9DC6712FAC1CC5CC76A6E305F3E21F /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = Sources/QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		C1CF024DCF6AAC9F2AAA1A913FDA6A63 /* IHKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IHKeyboardAvoiding.framework; path = IHKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4317CCB8AD44A6449D9E690EC43CD90 /* QRCodeReader.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRCodeReader.swift-Info.plist"; sourceTree = "<group>"; };
 		C96FDA2AF3448BC8E6C466E4E5A2C662 /* Pods-ImageMachine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageMachine-umbrella.h"; sourceTree = "<group>"; };
-		C9718E2539E4125E380B5FF57FFF52D6 /* SMError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMError.swift; path = Sources/SMError.swift; sourceTree = "<group>"; };
-		C9D519AB9BAAA342EE94321470B025C5 /* QRCodeReader.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QRCodeReader.swift-Info.plist"; sourceTree = "<group>"; };
-		CAB7EC0866003A8B2933DD91F935D819 /* QRCodeReader.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeReader.swift-prefix.pch"; sourceTree = "<group>"; };
+		D030D3E39182690E984B0F96CD92BB51 /* QRCodeReader.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QRCodeReader.swift.modulemap; sourceTree = "<group>"; };
 		D1417A27BDFD29354A42B29D1EC2CFC6 /* Pods-ImageMachine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageMachine.modulemap"; sourceTree = "<group>"; };
+		D2BE5DABA9453A432B0F1E8D154D5003 /* TLPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.xcconfig; sourceTree = "<group>"; };
 		D523B9D513271D4212B3BFCF2619C426 /* Pods-ImageMachineUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageMachineUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5F955FEA8846924C52BCFA0140BF1CC /* Pods-ImageMachineUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachineUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D64B855780600BD50730236F648B41F2 /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
 		D76BAFE30EC95D952E37ACFC9958D58D /* Pods-ImageMachineUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageMachineUITests-dummy.m"; sourceTree = "<group>"; };
-		D97811A48BC3122730E301D870B1D170 /* QRCodeReader.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeReader.swift.xcconfig; sourceTree = "<group>"; };
-		E0ECEA6D9412F6ACE6C376C424269AAD /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E302673BC7688BF6F7C432BA8BA42B03 /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
+		D8973D1D051A31E77481C95DD2C31F2B /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = Sources/KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		DB304CFD95059B0C3730B3BBCF8D9B4E /* IHKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		DF881D0174C543910035C1B8B0813AEC /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
+		E03EC34ECB28FD14B17F5534D0CA1492 /* Pods_ImageMachineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMachineTests.framework; path = "Pods-ImageMachineTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2042FCBB609BF6994C6F2D2C1F6031A /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
 		E4C8552B0A319F717E50F4A404B3EDA5 /* Pods-ImageMachineTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageMachineTests-dummy.m"; sourceTree = "<group>"; };
-		E51FEB60F97E2ACEAA26A6BA6C0041C0 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = Sources/QRCodeReaderView.swift; sourceTree = "<group>"; };
+		E512CA693AE7D729B3BAAB7BCB06E51F /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
 		E7F7246B3BB0A209732E8CAC02F21C27 /* Pods-ImageMachineUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageMachineUITests.modulemap"; sourceTree = "<group>"; };
 		EA040042CC6E1742BD622769AC04DD06 /* Pods-ImageMachineTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageMachineTests-Info.plist"; sourceTree = "<group>"; };
-		F0353B4CBDC6EE95D0978003EB2CEB51 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = Sources/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		EA53147E8F178DB5D72A36E4DA108F6C /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		EDC7A4CF62A1F9C67FAD7E2E99AAD2FE /* QRCodeReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = Sources/QRCodeReader.swift; sourceTree = "<group>"; };
+		EEE1413DAC7B2778BE6AE5CFCC2B8A5A /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
+		F16BA1FA7DE063A2478AFA5A50C12043 /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TLPhotoPicker.bundle; path = "TLPhotoPicker-TLPhotoPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25579EAD3540AB948D1489A411626E1 /* Pods-ImageMachineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMachineUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FCF576A3F2C1FE9B1A584D0A72828D58 /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
-		FEF1E8E34E84C67ABAD490D1A0F7590E /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
+		F3B2DB53323A58664C25C13107CFDF79 /* IHKeyboardAvoiding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IHKeyboardAvoiding-Info.plist"; sourceTree = "<group>"; };
+		F7BCB502AD547E30F3B1AB7D962272A1 /* IHKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		FAF1B2C668A28B36393D14FE3C8DB396 /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
+		FC1A85AD602278E104FD08F4A369654A /* QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QRCodeReader.framework; path = QRCodeReader.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2B2073221CE3BADAC0D3640520F2C5 /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotopickerDataSourcesProtocol.swift; path = TLPhotoPicker/Classes/TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3241B0C802306DAB021B193DAB9D5B6D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38420E9EE650C1A1210B264493F42621 /* AVFoundation.framework in Frameworks */,
-				10E506D91FF8F0D8DC957B261365F467 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		56888950B55DF7D85CDDE790C5ADB0A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7F6D21685A6912702231AFB200EC89C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6035012FD5F99F1778113DB66BE9D400 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,11 +215,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6191C3511724AB2EB86A65BEE97D705A /* Frameworks */ = {
+		740C69ACA692245D0E6A5943C0BC9DD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8C2B790F12EAA63B912CF72B55C37C /* Foundation.framework in Frameworks */,
+				3AC23BE0E31949CA7CA68C5765D063E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,18 +231,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28D3B7062FCE28A766D36F2BA1CE25B /* Frameworks */ = {
+		906FE983AA1224A29855CBD7A821C2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7394C1C9A3DC52720883106C92D139F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		997F2B3FBB0707807491DCFDB301A0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCAE30A3EE828A91DF174D346D8F262 /* AVFoundation.framework in Frameworks */,
+				4C5A4A02678DF5F1BB6BDF033166A2E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC34BF4B19D48AAF0675784512AAFED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E365CFBD8F260C5F74FFAF9AEF087315 /* Frameworks */ = {
+		E633A6DC939ED082AD060AADC2C4A770 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E06A12CBB09ED26F9688F8F73791746 /* Foundation.framework in Frameworks */,
+				8227F2DD0D073CC3C7BBD31A2134CBB8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,92 +299,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		112C09451E30E07FF315F0FAEA735F91 /* Support Files */ = {
+		3BAFDC9F360C99B469179BB68A9180D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				38E98FD2101CC0D68C8B3BDD2A9671C4 /* StorageManager.modulemap */,
-				949DE8EA5857D4AAF8819DFDE7C2E46A /* StorageManager.xcconfig */,
-				AE41CA622AEA785B3B8182703117089A /* StorageManager-dummy.m */,
-				84544259AF3EBAEDF946F8DA8BF06976 /* StorageManager-Info.plist */,
-				56F850738F2491F143842FAAFA77C4E5 /* StorageManager-prefix.pch */,
-				AA6B0197E0E026A4CF46C18D6DB6903C /* StorageManager-umbrella.h */,
+				97F9A60FCBEA7FC3817627B746B291B4 /* AFDateHelper.framework */,
+				C1CF024DCF6AAC9F2AAA1A913FDA6A63 /* IHKeyboardAvoiding.framework */,
+				8831CDD6D1912DB5D4F09375B96DDD6E /* Pods_ImageMachine.framework */,
+				E03EC34ECB28FD14B17F5534D0CA1492 /* Pods_ImageMachineTests.framework */,
+				055C61E253867A348626F2447BBA299A /* Pods_ImageMachineUITests.framework */,
+				FC1A85AD602278E104FD08F4A369654A /* QRCodeReader.framework */,
+				F16BA1FA7DE063A2478AFA5A50C12043 /* TLPhotoPicker.bundle */,
+				B82A6972A288CCC46AF48F30631A9A9D /* TLPhotoPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B74A3DD20BB63D75E7CC5F87922B51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D030D3E39182690E984B0F96CD92BB51 /* QRCodeReader.swift.modulemap */,
+				AB4815FCFE48816B5048EB620CC36E97 /* QRCodeReader.swift.xcconfig */,
+				7917B930B91FEDF4DB3FA3C3FE8623F7 /* QRCodeReader.swift-dummy.m */,
+				C4317CCB8AD44A6449D9E690EC43CD90 /* QRCodeReader.swift-Info.plist */,
+				B706EAA015E292743357235470758225 /* QRCodeReader.swift-prefix.pch */,
+				85BEB842BC80B9C40E0CCB527266593A /* QRCodeReader.swift-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/StorageManager";
-			sourceTree = "<group>";
-		};
-		2BAC91527091891DC8FDB45CF68F1424 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B445B58C8EFE25A22787C4C59441938 /* IHKeyboardAvoiding.modulemap */,
-				369A054AF95755AD40D921B384DBB6F2 /* IHKeyboardAvoiding.xcconfig */,
-				891B93C7F1236244ADEB32E00382D9BD /* IHKeyboardAvoiding-dummy.m */,
-				21AF18DD23C98F56027BE3144F7960DB /* IHKeyboardAvoiding-Info.plist */,
-				B1BAB68642E2A074FCBBE8ACDFD3851F /* IHKeyboardAvoiding-prefix.pch */,
-				5AD0BBA1179DDBC5519408F7B8228EB5 /* IHKeyboardAvoiding-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/IHKeyboardAvoiding";
-			sourceTree = "<group>";
-		};
-		4F00B00CFCDDD42A5E5F2BF7074B7677 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				401CA01F11DA72B36BEF10909A1B077B /* TLPhotoPickerController.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		54BECBCD59CC46097596E3BB58AA91D8 /* StorageManager */ = {
-			isa = PBXGroup;
-			children = (
-				C9718E2539E4125E380B5FF57FFF52D6 /* SMError.swift */,
-				895525AAEDB009F0ED65A78DB97284E6 /* StorageManager.swift */,
-				112C09451E30E07FF315F0FAEA735F91 /* Support Files */,
-			);
-			name = StorageManager;
-			path = StorageManager;
-			sourceTree = "<group>";
-		};
-		581E21688F9D7DD915BD570361CDC9D8 /* QRCodeReader.swift */ = {
-			isa = PBXGroup;
-			children = (
-				D64B855780600BD50730236F648B41F2 /* QRCodeReader.swift */,
-				470E1A5F131EFF71018C29C7102B9DB9 /* QRCodeReaderResult.swift */,
-				E51FEB60F97E2ACEAA26A6BA6C0041C0 /* QRCodeReaderView.swift */,
-				2EC4B23E5707132BD2AE49BFAD6FB07C /* QRCodeReaderViewContainer.swift */,
-				735FDF7E0A1ED29FE4CF2A75BB588E86 /* QRCodeReaderViewController.swift */,
-				680B91935E19DC5B2669D0AB8AB9E606 /* QRCodeReaderViewControllerBuilder.swift */,
-				408D9CA1023D5A6696BE6033AAB19EF5 /* QRCodeReaderViewControllerDelegate.swift */,
-				F0353B4CBDC6EE95D0978003EB2CEB51 /* ReaderOverlayView.swift */,
-				0A4C334DD5337C5B956D48B3DE67DAC8 /* SwitchCameraButton.swift */,
-				7322AEB6F6580435E291BA1471C5ECDD /* ToggleTorchButton.swift */,
-				D562239D9C2A47DF94926A72ABAD514B /* Support Files */,
-			);
-			name = QRCodeReader.swift;
-			path = QRCodeReader.swift;
-			sourceTree = "<group>";
-		};
-		5B2CF1B8814F1803AADA33FE9A55F778 /* TLPhotoPicker */ = {
-			isa = PBXGroup;
-			children = (
-				B065DBAA50B362122A7FC429476186D2 /* TLAlbumPopView.swift */,
-				3C38A9D196FAE514EEE4F77E7B35BBE2 /* TLAssetCollection+Extension.swift */,
-				E302673BC7688BF6F7C432BA8BA42B03 /* TLAssetsCollection.swift */,
-				7F72640AE720D61AB9A20C1CC1A3779A /* TLBundle.swift */,
-				93003EB362EFA2FD6A8AB362269EB6F6 /* TLCollectionTableViewCell.swift */,
-				9706150CB68B8FE4D82FC6871382D09C /* TLCollectionTableViewCell.xib */,
-				90B023057769E4A4C0EB32C13985FAF8 /* TLPhotoCollectionViewCell.swift */,
-				B396D85DA516F2D8AF595529405B68A7 /* TLPhotoCollectionViewCell.xib */,
-				30EB4BD265DF7BBAA088131138A76F04 /* TLPhotoLibrary.swift */,
-				3E07B2C3BB4BBCC9E1B6D585FCB313C5 /* TLPhotopickerDataSourcesProtocol.swift */,
-				04EC56CC037BE96226E9ED02BA47A4AB /* TLPhotosPickerViewController.swift */,
-				2801CD0F24D561827C065978B923CAF2 /* TLPhotosPickerViewController.xib */,
-				4F00B00CFCDDD42A5E5F2BF7074B7677 /* Resources */,
-				BE5AE6DD3CA0E63B75348498CBDF8D71 /* Support Files */,
-			);
-			name = TLPhotoPicker;
-			path = TLPhotoPicker;
+			path = "../Target Support Files/QRCodeReader.swift";
 			sourceTree = "<group>";
 		};
 		66C3387985806152B1E58976A6AA6F51 /* Pods-ImageMachineUITests */ = {
@@ -405,30 +344,15 @@
 			path = "Target Support Files/Pods-ImageMachineUITests";
 			sourceTree = "<group>";
 		};
-		68A76895072870D24A5608A11757C38E /* Pods */ = {
+		73D97066BF14790785F2EA11DF3288EC /* IHKeyboardAvoiding */ = {
 			isa = PBXGroup;
 			children = (
-				C05D9A18CCC1BFAA01F41FFB7ACAAAF6 /* IHKeyboardAvoiding */,
-				581E21688F9D7DD915BD570361CDC9D8 /* QRCodeReader.swift */,
-				54BECBCD59CC46097596E3BB58AA91D8 /* StorageManager */,
-				5B2CF1B8814F1803AADA33FE9A55F778 /* TLPhotoPicker */,
+				A3511A6BD188CAA1B58DA3B42BD45CD5 /* KeyboardAvoiding.swift */,
+				D8973D1D051A31E77481C95DD2C31F2B /* KeyboardDismissingView.swift */,
+				A6A5621E6AA174BE9E49C1DCBBACF1DD /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		762BA77A7000583235519A5B411F697C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D9257EBFB3C19748500015C06CAD992 /* IHKeyboardAvoiding.framework */,
-				B4E88E0CBF6178F84FB342E01FC7EE24 /* Pods_ImageMachine.framework */,
-				68B1E005D1F7E2F41EB558B35B9C842B /* Pods_ImageMachineTests.framework */,
-				17310A5D2A390BBEEE6C0A41EA9F9EFD /* Pods_ImageMachineUITests.framework */,
-				E0ECEA6D9412F6ACE6C376C424269AAD /* QRCodeReader.framework */,
-				42C642ED521EC73B3D35B6F855E9A321 /* StorageManager.framework */,
-				AF3C423E22B4D12746F330D8E39FB47C /* TLPhotoPicker.bundle */,
-				B9D5DB9FD050C51C1EE4CB0C2A7E7A01 /* TLPhotoPicker.framework */,
-			);
-			name = Products;
+			name = IHKeyboardAvoiding;
+			path = IHKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
 		7A852C6AACEF960BB16ECE358A03D875 /* Targets Support Files */ = {
@@ -457,30 +381,84 @@
 			path = "Target Support Files/Pods-ImageMachineTests";
 			sourceTree = "<group>";
 		};
-		BE5AE6DD3CA0E63B75348498CBDF8D71 /* Support Files */ = {
+		853D85B16CE71DA572ECD137C773DA0B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				665B25A7FF6749198C23AC132E2ED1C5 /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */,
-				BCC74529C41B5614A5988ACE3802C6FF /* TLPhotoPicker.modulemap */,
-				586BE4D12ED2B5FBD08D5F3463D0C097 /* TLPhotoPicker.xcconfig */,
-				510E35AD15D886CE9417129C8EEF1B7B /* TLPhotoPicker-dummy.m */,
-				FCF576A3F2C1FE9B1A584D0A72828D58 /* TLPhotoPicker-Info.plist */,
-				FEF1E8E34E84C67ABAD490D1A0F7590E /* TLPhotoPicker-prefix.pch */,
-				B9A4F10F9111561ACD13132D04DE8604 /* TLPhotoPicker-umbrella.h */,
+				0AE5FBB588F6558981AC9881F129A19E /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */,
+				041C51B7A64999B4132CA45872DB54EB /* TLPhotoPicker.modulemap */,
+				D2BE5DABA9453A432B0F1E8D154D5003 /* TLPhotoPicker.xcconfig */,
+				0F99973C46D1910D834E4AD1510FF6E8 /* TLPhotoPicker-dummy.m */,
+				13D1FD58A58F65F78993C3D84A092D13 /* TLPhotoPicker-Info.plist */,
+				3294EE5140509122E9B5D75E6654A6BE /* TLPhotoPicker-prefix.pch */,
+				348ADD53B1C676401CCDF63D7DED4759 /* TLPhotoPicker-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TLPhotoPicker";
 			sourceTree = "<group>";
 		};
-		C05D9A18CCC1BFAA01F41FFB7ACAAAF6 /* IHKeyboardAvoiding */ = {
+		95D4C57F17BD052BFCAF059C340D9351 /* AFDateHelper */ = {
 			isa = PBXGroup;
 			children = (
-				7457CFA5ADEADD0B47678283D9F8B37F /* KeyboardAvoiding.swift */,
-				9410864265BD9EA04283C80F6C8A25CB /* KeyboardDismissingView.swift */,
-				2BAC91527091891DC8FDB45CF68F1424 /* Support Files */,
+				6F2796E65795E58256632E5C868FA5F0 /* DateHelper.swift */,
+				E1DDA6F74E752214513DF8C79AE1833E /* Support Files */,
 			);
-			name = IHKeyboardAvoiding;
-			path = IHKeyboardAvoiding;
+			name = AFDateHelper;
+			path = AFDateHelper;
+			sourceTree = "<group>";
+		};
+		A6A5621E6AA174BE9E49C1DCBBACF1DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E321DE8A97B85C3222364CADCB9DB /* IHKeyboardAvoiding.modulemap */,
+				DB304CFD95059B0C3730B3BBCF8D9B4E /* IHKeyboardAvoiding.xcconfig */,
+				169B48F0BE74AFDB32514D5B38D639D8 /* IHKeyboardAvoiding-dummy.m */,
+				F3B2DB53323A58664C25C13107CFDF79 /* IHKeyboardAvoiding-Info.plist */,
+				F7BCB502AD547E30F3B1AB7D962272A1 /* IHKeyboardAvoiding-prefix.pch */,
+				7ACA87D37F78F0E65B63D933523E36E6 /* IHKeyboardAvoiding-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IHKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		A79A8DAC01DDFAA0B9D4AB5DD54BEDA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95D4C57F17BD052BFCAF059C340D9351 /* AFDateHelper */,
+				73D97066BF14790785F2EA11DF3288EC /* IHKeyboardAvoiding */,
+				DA5D6EDCF779052B514B5472853636A4 /* QRCodeReader.swift */,
+				BE7370C87103740C7F14C6C911DEA609 /* TLPhotoPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE7370C87103740C7F14C6C911DEA609 /* TLPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5FD3A1B17F3BFB4D93B6BB2BC193103F /* TLAlbumPopView.swift */,
+				B2FDEF4286CAF6C2088E80FB04EFA034 /* TLAssetCollection+Extension.swift */,
+				AD7FED84A05F6ECCF79D0497E7A078F1 /* TLAssetsCollection.swift */,
+				EEE1413DAC7B2778BE6AE5CFCC2B8A5A /* TLBundle.swift */,
+				E512CA693AE7D729B3BAAB7BCB06E51F /* TLCollectionTableViewCell.swift */,
+				19B9A16856054AE3B06BA382B444329C /* TLCollectionTableViewCell.xib */,
+				EA53147E8F178DB5D72A36E4DA108F6C /* TLPhotoCollectionViewCell.swift */,
+				35C2F18CFDD9D6FD8454ACE4158FCFCE /* TLPhotoCollectionViewCell.xib */,
+				E2042FCBB609BF6994C6F2D2C1F6031A /* TLPhotoLibrary.swift */,
+				FC2B2073221CE3BADAC0D3640520F2C5 /* TLPhotopickerDataSourcesProtocol.swift */,
+				7C5A78D1E15779B3B44E18D037C6A3A5 /* TLPhotosPickerViewController.swift */,
+				FAF1B2C668A28B36393D14FE3C8DB396 /* TLPhotosPickerViewController.xib */,
+				CCA935EB5130CD1420C7D4EF7B59AEE5 /* Resources */,
+				853D85B16CE71DA572ECD137C773DA0B /* Support Files */,
+			);
+			name = TLPhotoPicker;
+			path = TLPhotoPicker;
+			sourceTree = "<group>";
+		};
+		CCA935EB5130CD1420C7D4EF7B59AEE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF881D0174C543910035C1B8B0813AEC /* TLPhotoPickerController.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -488,24 +466,43 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				68A76895072870D24A5608A11757C38E /* Pods */,
-				762BA77A7000583235519A5B411F697C /* Products */,
+				A79A8DAC01DDFAA0B9D4AB5DD54BEDA9 /* Pods */,
+				3BAFDC9F360C99B469179BB68A9180D5 /* Products */,
 				7A852C6AACEF960BB16ECE358A03D875 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D562239D9C2A47DF94926A72ABAD514B /* Support Files */ = {
+		DA5D6EDCF779052B514B5472853636A4 /* QRCodeReader.swift */ = {
 			isa = PBXGroup;
 			children = (
-				1C7AD52990D7DF36E2E0665B7689F515 /* QRCodeReader.swift.modulemap */,
-				D97811A48BC3122730E301D870B1D170 /* QRCodeReader.swift.xcconfig */,
-				B439374B27ABF204047C63E28968A648 /* QRCodeReader.swift-dummy.m */,
-				C9D519AB9BAAA342EE94321470B025C5 /* QRCodeReader.swift-Info.plist */,
-				CAB7EC0866003A8B2933DD91F935D819 /* QRCodeReader.swift-prefix.pch */,
-				B2D2D3B5EF7CA2CF91603CC9E4F7E5D9 /* QRCodeReader.swift-umbrella.h */,
+				EDC7A4CF62A1F9C67FAD7E2E99AAD2FE /* QRCodeReader.swift */,
+				11487EE0D4BFE2D2664B15F7459BA83A /* QRCodeReaderResult.swift */,
+				4A5D0E9FAB45A67AAE116B0B212E2326 /* QRCodeReaderView.swift */,
+				614093E14E15D2A6878BFD5BD3562EE3 /* QRCodeReaderViewContainer.swift */,
+				A3E3E655656EF00E1F0CE7E51E86E33E /* QRCodeReaderViewController.swift */,
+				812617715A0A9D1B1CF1D1622C1105DE /* QRCodeReaderViewControllerBuilder.swift */,
+				BF9DC6712FAC1CC5CC76A6E305F3E21F /* QRCodeReaderViewControllerDelegate.swift */,
+				A6145B4A7D5436642AE101DFDD1C08DE /* ReaderOverlayView.swift */,
+				2158C7F2ECEC038173ED0ECF7ED6AAFE /* SwitchCameraButton.swift */,
+				0B06C13E0DFEFE824ABF8A03AA29A6E3 /* ToggleTorchButton.swift */,
+				56B74A3DD20BB63D75E7CC5F87922B51 /* Support Files */,
+			);
+			name = QRCodeReader.swift;
+			path = QRCodeReader.swift;
+			sourceTree = "<group>";
+		};
+		E1DDA6F74E752214513DF8C79AE1833E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04403E84CC1AC2890E65ED774BB61C1E /* AFDateHelper.modulemap */,
+				0B64C473E2014D559E4E2F5F9459223B /* AFDateHelper.xcconfig */,
+				365C3FE21A5A4EA24F6B72BD84C52090 /* AFDateHelper-dummy.m */,
+				63BC6FA1D960BA0302B9DD557B572266 /* AFDateHelper-Info.plist */,
+				617543DA469869057345805D38471AAB /* AFDateHelper-prefix.pch */,
+				755400731EB89DDBDC623FABC3799655 /* AFDateHelper-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/QRCodeReader.swift";
+			path = "../Target Support Files/AFDateHelper";
 			sourceTree = "<group>";
 		};
 		F344D71468F92544F45092FF0BB7539A /* iOS */ = {
@@ -521,19 +518,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0AE63C0CB7142ACF5BD150A06FCF836D /* Headers */ = {
+		0AC78C1AC97047C80C0B63E22D29BD18 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE75E3B6EA12283A424A297268F62078 /* StorageManager-umbrella.h in Headers */,
+				263CAAE0768E216ED64DFED33DDE4116 /* QRCodeReader.swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4127C78D2CB853D20E0D288CF6DBFFFA /* Headers */ = {
+		38A6307C7408C6E9E948E6030D447BA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4BD2207B12D6A24F286E8CD29C7280 /* QRCodeReader.swift-umbrella.h in Headers */,
+				4C00555B1EAB84F52081EB113DF9E62E /* TLPhotoPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,19 +542,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1760A773857EC1D8ABD150F7B105C8C /* Headers */ = {
+		571BAD25B39EED6B11566A83C7A4B42F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9E12815F38B274092338A6EC0B6391C /* TLPhotoPicker-umbrella.h in Headers */,
+				7231845658A33388E45343EB5177F27E /* AFDateHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF1025ABA673718C8D52EFF154679D3E /* Headers */ = {
+		CEB08C17F27E8327E302D35DED541F6D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46073D1B4496AA3A3FE650754041DB26 /* Pods-ImageMachine-umbrella.h in Headers */,
+				9CA7E0FAF319C483B7F2FD18556EF3B1 /* Pods-ImageMachine-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,35 +593,35 @@
 			);
 			name = "Pods-ImageMachineTests";
 			productName = "Pods-ImageMachineTests";
-			productReference = 68B1E005D1F7E2F41EB558B35B9C842B /* Pods_ImageMachineTests.framework */;
+			productReference = E03EC34ECB28FD14B17F5534D0CA1492 /* Pods_ImageMachineTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		257A3A63DF55BE06AA01738062D81116 /* TLPhotoPicker */ = {
+		10674A0B9260ABE2FA5FAD3E24AE448B /* TLPhotoPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 004062AEFC619E653D9314B7ABED163E /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */;
+			buildConfigurationList = D1F5F4043BA10E6D5CB07FFCA441668D /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */;
 			buildPhases = (
-				C1760A773857EC1D8ABD150F7B105C8C /* Headers */,
-				399B9EBA289BECD82F6823196C4E4F45 /* Sources */,
-				6191C3511724AB2EB86A65BEE97D705A /* Frameworks */,
-				089D9F85F9D21FB90D7136F11A44CA91 /* Resources */,
+				38A6307C7408C6E9E948E6030D447BA5 /* Headers */,
+				F4C8F9F3C3515DB58C5169F96309E629 /* Sources */,
+				740C69ACA692245D0E6A5943C0BC9DD6 /* Frameworks */,
+				52F97B4ED5277171645079B513B1D8CE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				124B41F292E44AF05D1455F2E19FA79A /* PBXTargetDependency */,
+				C25769B8027BFA65B9607FB053014230 /* PBXTargetDependency */,
 			);
 			name = TLPhotoPicker;
 			productName = TLPhotoPicker;
-			productReference = B9D5DB9FD050C51C1EE4CB0C2A7E7A01 /* TLPhotoPicker.framework */;
+			productReference = B82A6972A288CCC46AF48F30631A9A9D /* TLPhotoPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		507CC486B8478D31EF3173CC81458157 /* TLPhotoPicker-TLPhotoPicker */ = {
+		1AADF3134F47F2019D05F3809455C410 /* TLPhotoPicker-TLPhotoPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E613029513CD1A2B06F69CA2BBC869E4 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
+			buildConfigurationList = 1955F948E36A02E648837DA6E28042D6 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
 			buildPhases = (
-				CAA7017A99999E1F306F25ED62318320 /* Sources */,
-				D28D3B7062FCE28A766D36F2BA1CE25B /* Frameworks */,
-				7DAC4BDE91A22525E55971061300A8CA /* Resources */,
+				79D6718AB39B7BAC3733464A38804804 /* Sources */,
+				AFC34BF4B19D48AAF0675784512AAFED /* Frameworks */,
+				9FE394CAB1CE31FEA8A9D89ECE4489B9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -632,29 +629,29 @@
 			);
 			name = "TLPhotoPicker-TLPhotoPicker";
 			productName = "TLPhotoPicker-TLPhotoPicker";
-			productReference = AF3C423E22B4D12746F330D8E39FB47C /* TLPhotoPicker.bundle */;
+			productReference = F16BA1FA7DE063A2478AFA5A50C12043 /* TLPhotoPicker.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		6545A8DC15A7EAC1467CFA039405DE9A /* Pods-ImageMachine */ = {
+		7483275D1712137CFBF0DC795B4092E7 /* Pods-ImageMachine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4DE128128158B6096623E62B414F07D /* Build configuration list for PBXNativeTarget "Pods-ImageMachine" */;
+			buildConfigurationList = BAD61BDD3D62375FB095668F2FF5B657 /* Build configuration list for PBXNativeTarget "Pods-ImageMachine" */;
 			buildPhases = (
-				CF1025ABA673718C8D52EFF154679D3E /* Headers */,
-				0F74AFAB13642BF6DABBCC92FF25889F /* Sources */,
-				E365CFBD8F260C5F74FFAF9AEF087315 /* Frameworks */,
-				31EAD9730607F1ED18B9C8344930E6D4 /* Resources */,
+				CEB08C17F27E8327E302D35DED541F6D /* Headers */,
+				7125C3F66AB0E5378D0B270E88C98559 /* Sources */,
+				906FE983AA1224A29855CBD7A821C2B5 /* Frameworks */,
+				78E968C392E3A5FF9363CEFD185767D6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				59584C63113477BE34762B8CEE779669 /* PBXTargetDependency */,
-				F6FCF538C8C3ECC606111B8B3CB36045 /* PBXTargetDependency */,
-				CE665B9F371D465B0329C7149D12F938 /* PBXTargetDependency */,
-				6D368FD75F2CDE6F7D1D5FF85C873A15 /* PBXTargetDependency */,
+				16C9EFF82B2584173A2BA4345845D1B4 /* PBXTargetDependency */,
+				868CAB3CDEF69B180D5261524A208CD9 /* PBXTargetDependency */,
+				1F263F23E0122B14B984795FB700C286 /* PBXTargetDependency */,
+				D286A6394800DED5A972EEB0482D6304 /* PBXTargetDependency */,
 			);
 			name = "Pods-ImageMachine";
 			productName = "Pods-ImageMachine";
-			productReference = B4E88E0CBF6178F84FB342E01FC7EE24 /* Pods_ImageMachine.framework */;
+			productReference = 8831CDD6D1912DB5D4F09375B96DDD6E /* Pods_ImageMachine.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7A2876118F66A5C51DE323A15F47B53D /* IHKeyboardAvoiding */ = {
@@ -672,35 +669,17 @@
 			);
 			name = IHKeyboardAvoiding;
 			productName = IHKeyboardAvoiding;
-			productReference = 8D9257EBFB3C19748500015C06CAD992 /* IHKeyboardAvoiding.framework */;
+			productReference = C1CF024DCF6AAC9F2AAA1A913FDA6A63 /* IHKeyboardAvoiding.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8466E620884D28421EADC7029A6444C0 /* StorageManager */ = {
+		97DAC47CE534089D2D443C689547C015 /* QRCodeReader.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 892C640597F301563030845FD2CF3064 /* Build configuration list for PBXNativeTarget "StorageManager" */;
+			buildConfigurationList = D76A67FDB191D908A190D9DE1B1EBB8F /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
 			buildPhases = (
-				0AE63C0CB7142ACF5BD150A06FCF836D /* Headers */,
-				FFE65A70651DB349823167F9FA0F36DF /* Sources */,
-				56888950B55DF7D85CDDE790C5ADB0A1 /* Frameworks */,
-				F527410E2833021B23BD09BF1ADE045F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = StorageManager;
-			productName = StorageManager;
-			productReference = 42C642ED521EC73B3D35B6F855E9A321 /* StorageManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D25CF6B5A84411D4CB6260E3A55EABF0 /* QRCodeReader.swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 753B87234CB323E48A815BD76AB1DA32 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */;
-			buildPhases = (
-				4127C78D2CB853D20E0D288CF6DBFFFA /* Headers */,
-				A2DBB8C2705A16D727DBB5E846BF0C75 /* Sources */,
-				3241B0C802306DAB021B193DAB9D5B6D /* Frameworks */,
-				3B3D8788BBA539000576D7EAFA2CABC5 /* Resources */,
+				0AC78C1AC97047C80C0B63E22D29BD18 /* Headers */,
+				3C7259825B53A4CF140A5D538EE1C6AF /* Sources */,
+				997F2B3FBB0707807491DCFDB301A0E4 /* Frameworks */,
+				80A51823356D0A6752D8A89142D4E2D5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -708,7 +687,25 @@
 			);
 			name = QRCodeReader.swift;
 			productName = QRCodeReader.swift;
-			productReference = E0ECEA6D9412F6ACE6C376C424269AAD /* QRCodeReader.framework */;
+			productReference = FC1A85AD602278E104FD08F4A369654A /* QRCodeReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACDD50F09AE78D0574DDCFC7A228C1F2 /* AFDateHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171A636B97A2978E366C7C822FEFF1B8 /* Build configuration list for PBXNativeTarget "AFDateHelper" */;
+			buildPhases = (
+				571BAD25B39EED6B11566A83C7A4B42F /* Headers */,
+				ADBC799EDF0661A3FA071737EAE5C95C /* Sources */,
+				E633A6DC939ED082AD060AADC2C4A770 /* Frameworks */,
+				5F00B7B98A8DD48C0DB194C48738D9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFDateHelper;
+			productName = AFDateHelper;
+			productReference = 97F9A60FCBEA7FC3817627B746B291B4 /* AFDateHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F1B8A2658EAAAB20F0976BD41AF0A098 /* Pods-ImageMachineUITests */ = {
@@ -727,7 +724,7 @@
 			);
 			name = "Pods-ImageMachineUITests";
 			productName = "Pods-ImageMachineUITests";
-			productReference = 17310A5D2A390BBEEE6C0A41EA9F9EFD /* Pods_ImageMachineUITests.framework */;
+			productReference = 055C61E253867A348626F2447BBA299A /* Pods_ImageMachineUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -747,46 +744,23 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 762BA77A7000583235519A5B411F697C /* Products */;
+			productRefGroup = 3BAFDC9F360C99B469179BB68A9180D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				ACDD50F09AE78D0574DDCFC7A228C1F2 /* AFDateHelper */,
 				7A2876118F66A5C51DE323A15F47B53D /* IHKeyboardAvoiding */,
-				6545A8DC15A7EAC1467CFA039405DE9A /* Pods-ImageMachine */,
+				7483275D1712137CFBF0DC795B4092E7 /* Pods-ImageMachine */,
 				08F7450AFDF3B3763063BDC63F41AB32 /* Pods-ImageMachineTests */,
 				F1B8A2658EAAAB20F0976BD41AF0A098 /* Pods-ImageMachineUITests */,
-				D25CF6B5A84411D4CB6260E3A55EABF0 /* QRCodeReader.swift */,
-				8466E620884D28421EADC7029A6444C0 /* StorageManager */,
-				257A3A63DF55BE06AA01738062D81116 /* TLPhotoPicker */,
-				507CC486B8478D31EF3173CC81458157 /* TLPhotoPicker-TLPhotoPicker */,
+				97DAC47CE534089D2D443C689547C015 /* QRCodeReader.swift */,
+				10674A0B9260ABE2FA5FAD3E24AE448B /* TLPhotoPicker */,
+				1AADF3134F47F2019D05F3809455C410 /* TLPhotoPicker-TLPhotoPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		089D9F85F9D21FB90D7136F11A44CA91 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21814B9B5B6EA001E5DE8A8EC4E1529F /* TLPhotoPicker.bundle in Resources */,
-				E7C9196B01D06150AB295E744324FECC /* TLPhotoPickerController.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31EAD9730607F1ED18B9C8344930E6D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B3D8788BBA539000576D7EAFA2CABC5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3CE85182D386904BA32AB75942DDF0D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -794,24 +768,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DAC4BDE91A22525E55971061300A8CA /* Resources */ = {
+		52F97B4ED5277171645079B513B1D8CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A7B95705AC379E0DD0F840BA5D45B3 /* TLCollectionTableViewCell.xib in Resources */,
-				B72BCABB35AC6E86DC6927E6001E5A6C /* TLPhotoCollectionViewCell.xib in Resources */,
-				BDFE00006AD5BAB5743DE2780B510336 /* TLPhotosPickerViewController.xib in Resources */,
+				9C4F889EC160B3F469148F11BC05D197 /* TLPhotoPicker.bundle in Resources */,
+				3127BEE5D11F842B32B2CC2BCA42D15F /* TLPhotoPickerController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F00B7B98A8DD48C0DB194C48738D9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78E968C392E3A5FF9363CEFD185767D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A51823356D0A6752D8A89142D4E2D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE394CAB1CE31FEA8A9D89ECE4489B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6351AD180DCD7914A395580E0119862 /* TLCollectionTableViewCell.xib in Resources */,
+				397E769354C2E70F918417162589C306 /* TLPhotoCollectionViewCell.xib in Resources */,
+				EEF400A2BF62F1EAF40EB1625C8F265C /* TLPhotosPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ABDD790A9697FC50B064F652F720E527 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F527410E2833021B23BD09BF1ADE045F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -828,31 +825,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F74AFAB13642BF6DABBCC92FF25889F /* Sources */ = {
+		3C7259825B53A4CF140A5D538EE1C6AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43001397F923A2174FD4072F831F1706 /* Pods-ImageMachine-dummy.m in Sources */,
+				320ECEB7AB0D5BB47EA7DB613ECA0312 /* QRCodeReader.swift in Sources */,
+				FA9D04BAE598409BD975BC606DB160A0 /* QRCodeReader.swift-dummy.m in Sources */,
+				FE568DC6EB9997B566260BC357854B56 /* QRCodeReaderResult.swift in Sources */,
+				A5813DD217B104EAD84CEB1CCE9A7F91 /* QRCodeReaderView.swift in Sources */,
+				482FE10016BEFFF36B0C79F0E12EE2FB /* QRCodeReaderViewContainer.swift in Sources */,
+				DE4FEB17C2F2BCE053110A12000047DA /* QRCodeReaderViewController.swift in Sources */,
+				E5733FE2CC3FA7A71A08932C68E779C6 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				1FE22426B49F93CECB6E338D97209D49 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				9BD076C81ADA0B3F60D632BF66BCA7E3 /* ReaderOverlayView.swift in Sources */,
+				0A3FB9DAF64BBC4F0554443F81895017 /* SwitchCameraButton.swift in Sources */,
+				B8BF49E56DC358A33E0F4FBAECB58136 /* ToggleTorchButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		399B9EBA289BECD82F6823196C4E4F45 /* Sources */ = {
+		7125C3F66AB0E5378D0B270E88C98559 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB28AF289FE2E82249549FC546A246B /* TLAlbumPopView.swift in Sources */,
-				FD75BB05AF725A46DE14689AE706B955 /* TLAssetCollection+Extension.swift in Sources */,
-				FF866737032BE0A91446DE9195382066 /* TLAssetsCollection.swift in Sources */,
-				0109B7070DC919DCF7FFCF9B4C51D55D /* TLBundle.swift in Sources */,
-				E9C112213F2520BDFD142C887AD1A108 /* TLCollectionTableViewCell.swift in Sources */,
-				4E27F4E6A9B7D6F2F64B08174E924971 /* TLCollectionTableViewCell.xib in Sources */,
-				5F305175E476B14FCB4057FE547FA3BA /* TLPhotoCollectionViewCell.swift in Sources */,
-				630B7EB609A6DD8A7EB0CA178A1CB5E2 /* TLPhotoCollectionViewCell.xib in Sources */,
-				D84A7EC78BCEB735828346FF348976B3 /* TLPhotoLibrary.swift in Sources */,
-				2166CEEA0CD72A71C17B2106E60E23CF /* TLPhotoPicker-dummy.m in Sources */,
-				14CFD390B59908E29737DE28EB7CDEE4 /* TLPhotopickerDataSourcesProtocol.swift in Sources */,
-				2C605842D0BB9759985E2D11ACB6F132 /* TLPhotosPickerViewController.swift in Sources */,
-				092FDDC52A07BF27E08E412B6D003463 /* TLPhotosPickerViewController.xib in Sources */,
+				C323A203288194DFCFAE3F956586641F /* Pods-ImageMachine-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,21 +859,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2DBB8C2705A16D727DBB5E846BF0C75 /* Sources */ = {
+		79D6718AB39B7BAC3733464A38804804 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436B7405E9C8AC5EC91C3C74C60FFE05 /* QRCodeReader.swift in Sources */,
-				BD8E705F445085AC15140E21ECCCB591 /* QRCodeReader.swift-dummy.m in Sources */,
-				5D38416FB04D2AD984B6C19ADFB13B1C /* QRCodeReaderResult.swift in Sources */,
-				837628CEA1EA3B92B319A0E927704476 /* QRCodeReaderView.swift in Sources */,
-				FB2D0DBC28F6378C227C4CDDFB61B27F /* QRCodeReaderViewContainer.swift in Sources */,
-				8194CD061DCA922C606713C3F6561132 /* QRCodeReaderViewController.swift in Sources */,
-				20BA0EF98BBB5A5408A0BAE0A6081598 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
-				352DAA60036B9D525A6E30F030857EE6 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
-				D8EF221B091415AFC965D26E33442BFF /* ReaderOverlayView.swift in Sources */,
-				82B3A02E7C6B3DCFC5EAFB25304D2361 /* SwitchCameraButton.swift in Sources */,
-				58DC9E43894423FF017A7025127CDE31 /* ToggleTorchButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -887,6 +871,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB3F0CA7EBF206076564F8FC77B55EE8 /* Pods-ImageMachineTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBC799EDF0661A3FA071737EAE5C95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398FEFBA0E1B135184F14800360D28DC /* AFDateHelper-dummy.m in Sources */,
+				4749449C57CCE62B944F11B9581B1D8F /* DateHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,20 +893,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAA7017A99999E1F306F25ED62318320 /* Sources */ = {
+		F4C8F9F3C3515DB58C5169F96309E629 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFE65A70651DB349823167F9FA0F36DF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AFF038480960039BDBC07D5D6D41DDF2 /* SMError.swift in Sources */,
-				1677184D6A4653DD331B88009863B3A5 /* StorageManager-dummy.m in Sources */,
-				EFC672270DEF23BA912DBD3EB9003008 /* StorageManager.swift in Sources */,
+				CA006EF9D9DA16DCDA522BB3E4A3EAEE /* TLAlbumPopView.swift in Sources */,
+				A3CBEDF91673430EDBE9395490AE08CB /* TLAssetCollection+Extension.swift in Sources */,
+				FD7A163CA9FB6B8C860549D4AE96119F /* TLAssetsCollection.swift in Sources */,
+				B728708EA0BEA3CA16E1605106C163CD /* TLBundle.swift in Sources */,
+				34E34F37E548E8E0B7A54E84FCCE9A46 /* TLCollectionTableViewCell.swift in Sources */,
+				53B8508F3D27A292D6D26349A9C15824 /* TLCollectionTableViewCell.xib in Sources */,
+				25717152F71B4DA625CC9356ADBD22D2 /* TLPhotoCollectionViewCell.swift in Sources */,
+				BA9408F556E3AE12A97517CBB579529F /* TLPhotoCollectionViewCell.xib in Sources */,
+				5DE7C36054F777881DECAAD315909BBD /* TLPhotoLibrary.swift in Sources */,
+				E78B9E52FA4BF42334BABC9AAE05917B /* TLPhotoPicker-dummy.m in Sources */,
+				E65D07038236DA5459A22C98BD18CB7C /* TLPhotopickerDataSourcesProtocol.swift in Sources */,
+				7E8678D92EA9096BCCF7C6804D79E027 /* TLPhotosPickerViewController.swift in Sources */,
+				E194B74BA7050DE71098C0F19FD4035A /* TLPhotosPickerViewController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,51 +919,90 @@
 		10933DE9CFE6950A18427CB691003048 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ImageMachine";
-			target = 6545A8DC15A7EAC1467CFA039405DE9A /* Pods-ImageMachine */;
+			target = 7483275D1712137CFBF0DC795B4092E7 /* Pods-ImageMachine */;
 			targetProxy = DA4A5695F39B62F6D4789086F746A9D2 /* PBXContainerItemProxy */;
 		};
-		124B41F292E44AF05D1455F2E19FA79A /* PBXTargetDependency */ = {
+		16C9EFF82B2584173A2BA4345845D1B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "TLPhotoPicker-TLPhotoPicker";
-			target = 507CC486B8478D31EF3173CC81458157 /* TLPhotoPicker-TLPhotoPicker */;
-			targetProxy = DD5BF24F05AEADC014FA5646A9E09CA4 /* PBXContainerItemProxy */;
+			name = AFDateHelper;
+			target = ACDD50F09AE78D0574DDCFC7A228C1F2 /* AFDateHelper */;
+			targetProxy = EAB3DE2EC795C51997514E7715A3E127 /* PBXContainerItemProxy */;
 		};
-		59584C63113477BE34762B8CEE779669 /* PBXTargetDependency */ = {
+		1F263F23E0122B14B984795FB700C286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeReader.swift;
+			target = 97DAC47CE534089D2D443C689547C015 /* QRCodeReader.swift */;
+			targetProxy = F085D8EA47113ADB97514201436B2968 /* PBXContainerItemProxy */;
+		};
+		868CAB3CDEF69B180D5261524A208CD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IHKeyboardAvoiding;
 			target = 7A2876118F66A5C51DE323A15F47B53D /* IHKeyboardAvoiding */;
-			targetProxy = F04166211B745951D30FF1CBE552EE4B /* PBXContainerItemProxy */;
+			targetProxy = C55F1E60D90DA324267DF24C1E800E20 /* PBXContainerItemProxy */;
 		};
-		6D368FD75F2CDE6F7D1D5FF85C873A15 /* PBXTargetDependency */ = {
+		C25769B8027BFA65B9607FB053014230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TLPhotoPicker-TLPhotoPicker";
+			target = 1AADF3134F47F2019D05F3809455C410 /* TLPhotoPicker-TLPhotoPicker */;
+			targetProxy = 2E1B2A44D410182F5296ED4BE4D91FC2 /* PBXContainerItemProxy */;
+		};
+		D286A6394800DED5A972EEB0482D6304 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TLPhotoPicker;
-			target = 257A3A63DF55BE06AA01738062D81116 /* TLPhotoPicker */;
-			targetProxy = 0E24F3E21B7BF935DBB1C38F0DDE2BAF /* PBXContainerItemProxy */;
-		};
-		CE665B9F371D465B0329C7149D12F938 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StorageManager;
-			target = 8466E620884D28421EADC7029A6444C0 /* StorageManager */;
-			targetProxy = E9811ED9A10DA7DD768D2FCEC8B85C7B /* PBXContainerItemProxy */;
+			target = 10674A0B9260ABE2FA5FAD3E24AE448B /* TLPhotoPicker */;
+			targetProxy = D0A70D8A152F106774DB0E5321C3ABD5 /* PBXContainerItemProxy */;
 		};
 		F30C8DCE24837DC276BE5AF3F1D98070 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ImageMachine";
-			target = 6545A8DC15A7EAC1467CFA039405DE9A /* Pods-ImageMachine */;
+			target = 7483275D1712137CFBF0DC795B4092E7 /* Pods-ImageMachine */;
 			targetProxy = 0A8140470E1028583DA0BB03C8C84EEF /* PBXContainerItemProxy */;
-		};
-		F6FCF538C8C3ECC606111B8B3CB36045 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QRCodeReader.swift;
-			target = D25CF6B5A84411D4CB6260E3A55EABF0 /* QRCodeReader.swift */;
-			targetProxy = 28B2E51721C61E32CD09317F274C687C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		080CD56A6A578C83D793A1B281EF139A /* Release */ = {
+		062C505098BB1DDB8001DD6405368657 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97811A48BC3122730E301D870B1D170 /* QRCodeReader.swift.xcconfig */;
+			baseConfigurationReference = F25579EAD3540AB948D1489A411626E1 /* Pods-ImageMachineUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachineUITests/Pods-ImageMachineUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageMachineUITests/Pods-ImageMachineUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		408FF979124CC59E3F2CAA979C0AD5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4815FCFE48816B5048EB620CC36E97 /* QRCodeReader.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1001,159 +1036,7 @@
 			};
 			name = Release;
 		};
-		1260BEC03D1B879C6C63B180FF0613D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3479D18186BB34CF0137843170150FBB /* Pods-ImageMachineUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachineUITests/Pods-ImageMachineUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageMachineUITests/Pods-ImageMachineUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1C397F96EB341038C1AE599C8D87CFE0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF838E125871A7BDBB051A4E7678CEE6 /* Pods-ImageMachine.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		4BFE4FB10E0248668F1B865C6126E23B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 586BE4D12ED2B5FBD08D5F3463D0C097 /* TLPhotoPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				PRODUCT_NAME = TLPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+		4093433A309EFE160336AC736594AB22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1204,7 +1087,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1217,45 +1100,28 @@
 			};
 			name = Debug;
 		};
-		5BF75662F0794C1002F5DC353B8F23D2 /* Debug */ = {
+		471BB34401DEABC9A1890B1C06A97090 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 586BE4D12ED2B5FBD08D5F3463D0C097 /* TLPhotoPicker.xcconfig */;
+			baseConfigurationReference = D2BE5DABA9453A432B0F1E8D154D5003 /* TLPhotoPicker.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
-				PRODUCT_MODULE_NAME = TLPhotoPicker;
 				PRODUCT_NAME = TLPhotoPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		641F7FB06B80A985D7283B978A0F264C /* Release */ = {
+		4A5BF93350ED3F4A29E52CB2A61F1E08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 586BE4D12ED2B5FBD08D5F3463D0C097 /* TLPhotoPicker.xcconfig */;
+			baseConfigurationReference = 62EF0B4C337A17A28C1EE687605A3A66 /* Pods-ImageMachine.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1265,22 +1131,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
-				PRODUCT_MODULE_NAME = TLPhotoPicker;
-				PRODUCT_NAME = TLPhotoPicker;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1288,9 +1155,25 @@
 			};
 			name = Release;
 		};
-		918EE0DFF46766A59AF72AD3C55385DA /* Debug */ = {
+		6C0A9AE6DB791137DD807D86644F8BFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B09D71EF0601CAC179F4D37B4080924 /* Pods-ImageMachineTests.debug.xcconfig */;
+			baseConfigurationReference = D2BE5DABA9453A432B0F1E8D154D5003 /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		733ACE6215D59E0796071324369EA01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137A1B658CB0927E1A8C16532E747DD8 /* Pods-ImageMachineTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1305,7 +1188,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachineTests/Pods-ImageMachineTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1321,14 +1204,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		91B7E3D632C682297B902DAECD208DD1 /* Debug */ = {
+		8307B6DDFF41E2AB2834AA52219A14B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97811A48BC3122730E301D870B1D170 /* QRCodeReader.swift.xcconfig */;
+			baseConfigurationReference = AB4815FCFE48816B5048EB620CC36E97 /* QRCodeReader.swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1361,134 +1245,69 @@
 			};
 			name = Debug;
 		};
-		9DDCCE6FCC5E0FCCBFCF1B328E160A61 /* Debug */ = {
+		924D56B1D59CD3049300EAEEA256114E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 949DE8EA5857D4AAF8819DFDE7C2E46A /* StorageManager.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StorageManager/StorageManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StorageManager/StorageManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/StorageManager/StorageManager.modulemap";
-				PRODUCT_MODULE_NAME = StorageManager;
-				PRODUCT_NAME = StorageManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C610B7D55712E12D8BC5F042FA457E32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62EF0B4C337A17A28C1EE687605A3A66 /* Pods-ImageMachine.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		C6EDA09CF4EE9E65AEF522114061F6C0 /* Debug */ = {
+		9F802B2C205BA8983AF0D3DADF8579F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 586BE4D12ED2B5FBD08D5F3463D0C097 /* TLPhotoPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				PRODUCT_NAME = TLPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		CE09133FEE9270A15591FA0E57D89ECF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 369A054AF95755AD40D921B384DBB6F2 /* IHKeyboardAvoiding.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
-				PRODUCT_MODULE_NAME = IHKeyboardAvoiding;
-				PRODUCT_NAME = IHKeyboardAvoiding;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CFDD6C580DFA917EA8F5FB90A13B4CAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F25579EAD3540AB948D1489A411626E1 /* Pods-ImageMachineUITests.release.xcconfig */;
+			baseConfigurationReference = 3479D18186BB34CF0137843170150FBB /* Pods-ImageMachineUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1503,7 +1322,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachineUITests/Pods-ImageMachineUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1519,15 +1338,50 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AED44518959C5703661015E440CEA791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B64C473E2014D559E4E2F5F9459223B /* AFDateHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFDateHelper/AFDateHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFDateHelper/AFDateHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFDateHelper/AFDateHelper.modulemap";
+				PRODUCT_MODULE_NAME = AFDateHelper;
+				PRODUCT_NAME = AFDateHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		EDBA8678EE6033A87029047DD5D07313 /* Release */ = {
+		BFCF26B44FBE72AE97B5559A0AB58BF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 137A1B658CB0927E1A8C16532E747DD8 /* Pods-ImageMachineTests.release.xcconfig */;
+			baseConfigurationReference = 6B09D71EF0601CAC179F4D37B4080924 /* Pods-ImageMachineTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1542,7 +1396,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachineTests/Pods-ImageMachineTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1558,15 +1412,158 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8BCE429070E22D154913840D6FE33B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2BE5DABA9453A432B0F1E8D154D5003 /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = TLPhotoPicker;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
+		CE09133FEE9270A15591FA0E57D89ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB304CFD95059B0C3730B3BBCF8D9B4E /* IHKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding.modulemap";
+				PRODUCT_MODULE_NAME = IHKeyboardAvoiding;
+				PRODUCT_NAME = IHKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D38ED043D0F832AF0D92F715D6555400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B64C473E2014D559E4E2F5F9459223B /* AFDateHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFDateHelper/AFDateHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFDateHelper/AFDateHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFDateHelper/AFDateHelper.modulemap";
+				PRODUCT_MODULE_NAME = AFDateHelper;
+				PRODUCT_NAME = AFDateHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E95D18E26F0D01952542A43F6E8F5911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF838E125871A7BDBB051A4E7678CEE6 /* Pods-ImageMachine.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageMachine/Pods-ImageMachine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F218FA1D003D6EC2962CC72D30D4B863 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 369A054AF95755AD40D921B384DBB6F2 /* IHKeyboardAvoiding.xcconfig */;
+			baseConfigurationReference = DB304CFD95059B0C3730B3BBCF8D9B4E /* IHKeyboardAvoiding.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1600,9 +1597,9 @@
 			};
 			name = Release;
 		};
-		FAD70E8417AE6B77716A3BEAC37BD539 /* Release */ = {
+		FF9E667F6BE1EF941719D7DE9D01858F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 949DE8EA5857D4AAF8819DFDE7C2E46A /* StorageManager.xcconfig */;
+			baseConfigurationReference = D2BE5DABA9453A432B0F1E8D154D5003 /* TLPhotoPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1613,37 +1610,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StorageManager/StorageManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StorageManager/StorageManager-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/StorageManager/StorageManager.modulemap";
-				PRODUCT_MODULE_NAME = StorageManager;
-				PRODUCT_NAME = StorageManager;
+				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = TLPhotoPicker;
+				PRODUCT_NAME = TLPhotoPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		004062AEFC619E653D9314B7ABED163E /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */ = {
+		171A636B97A2978E366C7C822FEFF1B8 /* Build configuration list for PBXNativeTarget "AFDateHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BF75662F0794C1002F5DC353B8F23D2 /* Debug */,
-				641F7FB06B80A985D7283B978A0F264C /* Release */,
+				D38ED043D0F832AF0D92F715D6555400 /* Debug */,
+				AED44518959C5703661015E440CEA791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1955F948E36A02E648837DA6E28042D6 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0A9AE6DB791137DD807D86644F8BFA /* Debug */,
+				471BB34401DEABC9A1890B1C06A97090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1651,26 +1656,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
-				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+				4093433A309EFE160336AC736594AB22 /* Debug */,
+				924D56B1D59CD3049300EAEEA256114E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		753B87234CB323E48A815BD76AB1DA32 /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
+		BAD61BDD3D62375FB095668F2FF5B657 /* Build configuration list for PBXNativeTarget "Pods-ImageMachine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91B7E3D632C682297B902DAECD208DD1 /* Debug */,
-				080CD56A6A578C83D793A1B281EF139A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		892C640597F301563030845FD2CF3064 /* Build configuration list for PBXNativeTarget "StorageManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9DDCCE6FCC5E0FCCBFCF1B328E160A61 /* Debug */,
-				FAD70E8417AE6B77716A3BEAC37BD539 /* Release */,
+				E95D18E26F0D01952542A43F6E8F5911 /* Debug */,
+				4A5BF93350ED3F4A29E52CB2A61F1E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1678,8 +1674,17 @@
 		C10F635E64BEB0AD2354EAD457BE3A45 /* Build configuration list for PBXNativeTarget "Pods-ImageMachineUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1260BEC03D1B879C6C63B180FF0613D4 /* Debug */,
-				CFDD6C580DFA917EA8F5FB90A13B4CAB /* Release */,
+				9F802B2C205BA8983AF0D3DADF8579F4 /* Debug */,
+				062C505098BB1DDB8001DD6405368657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F5F4043BA10E6D5CB07FFCA441668D /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9E667F6BE1EF941719D7DE9D01858F /* Debug */,
+				C8BCE429070E22D154913840D6FE33B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1693,20 +1698,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E613029513CD1A2B06F69CA2BBC869E4 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
+		D76A67FDB191D908A190D9DE1B1EBB8F /* Build configuration list for PBXNativeTarget "QRCodeReader.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6EDA09CF4EE9E65AEF522114061F6C0 /* Debug */,
-				4BFE4FB10E0248668F1B865C6126E23B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4DE128128158B6096623E62B414F07D /* Build configuration list for PBXNativeTarget "Pods-ImageMachine" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C397F96EB341038C1AE599C8D87CFE0 /* Debug */,
-				C610B7D55712E12D8BC5F042FA457E32 /* Release */,
+				8307B6DDFF41E2AB2834AA52219A14B4 /* Debug */,
+				408FF979124CC59E3F2CAA979C0AD5DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1714,8 +1710,8 @@
 		FCE6311DE7612EC1C31C701AF1F331F5 /* Build configuration list for PBXNativeTarget "Pods-ImageMachineTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				918EE0DFF46766A59AF72AD3C55385DA /* Debug */,
-				EDBA8678EE6033A87029047DD5D07313 /* Release */,
+				BFCF26B44FBE72AE97B5559A0AB58BF2 /* Debug */,
+				733ACE6215D59E0796071324369EA01C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

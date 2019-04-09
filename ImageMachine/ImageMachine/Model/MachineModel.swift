@@ -8,6 +8,7 @@
 
 import UIKit
 import Photos
+import TLPhotoPicker
 
 class MachineModel: NSObject {
     var id:String
@@ -16,7 +17,6 @@ class MachineModel: NSObject {
     var qrCodeNumber: String
     var maintenanceDate: NSDate
     var imageArray:[PHAsset]
-    
     
     init(machineId:String, machineName:String, machineType:String, qrCode: String, lastmaintenanceDate: NSDate, images:[PHAsset]) {
         self.id = machineId

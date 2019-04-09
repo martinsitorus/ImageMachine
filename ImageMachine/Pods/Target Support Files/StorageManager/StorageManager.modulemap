@@ -1,6 +1,0 @@
-framework module StorageManager {
-  umbrella header "StorageManager-umbrella.h"
-
-  export *
-  module * { export * }
-}

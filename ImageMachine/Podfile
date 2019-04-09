@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-  platform :ios, '10.0'
+  platform :ios, '12.0'
 
 target 'ImageMachine' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -9,8 +9,8 @@ target 'ImageMachine' do
     pod 'QRCodeReader.swift'
     pod 'TLPhotoPicker'
     pod 'IHKeyboardAvoiding'
-    pod 'StorageManager'
-    
+    pod 'AFDateHelper', '~> 4.2.2'
+    pod 'SKPhotoBrowser'
 
   target 'ImageMachineTests' do
     inherit! :search_paths

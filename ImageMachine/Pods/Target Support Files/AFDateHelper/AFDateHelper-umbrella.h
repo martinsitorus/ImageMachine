@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double StorageManagerVersionNumber;
-FOUNDATION_EXPORT const unsigned char StorageManagerVersionString[];
+FOUNDATION_EXPORT double AFDateHelperVersionNumber;
+FOUNDATION_EXPORT const unsigned char AFDateHelperVersionString[];
 

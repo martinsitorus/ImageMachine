@@ -34,8 +34,14 @@ class HomeViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if (!isAppAlreadyLaunchedOnce()) {
+            firstTimeRun()
+        }
         // Do any additional setup after loading the view.
+    }
+    
+    func firstTimeRun() {
+        performSegue(withIdentifier: "showMachinData", sender: self)
     }
     
 
